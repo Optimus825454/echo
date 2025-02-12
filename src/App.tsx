@@ -17,8 +17,20 @@ import './index.css';
 // Protected Route component
 const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
   const isAuthenticated = localStorage.getItem('adminAuthenticated') === 'true';
-  
-  if (!isAuthenticated) {
+  const token = localStorage.getItem('adminToken');
+  const tokenExpiry = localStorage.getItem('tokenExpiry');
+
+  // Token'ın geçerliliğini kontrol et
+  const isTokenValid = () => {
+    if (!token || !tokenExpiry) return false;
+    return parseInt(tokenExpiry) > Date.now();
+  };
+
+  if (!isAuthenticated || !isTokenValid()) {
+    // Token geçersizse tüm auth bilgilerini temizle
+    localStorage.removeItem('adminToken');
+    localStorage.removeItem('adminAuthenticated');
+    localStorage.removeItem('tokenExpiry');
     return <Navigate to="/admin/login" replace />;
   }
 

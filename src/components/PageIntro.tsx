@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 
 interface PageIntroProps {
   title: string;
@@ -11,6 +11,10 @@ export function PageIntro({ title, description, categories }: PageIntroProps) {
   const [typedText, setTypedText] = useState('');
   const [showCategories, setShowCategories] = useState(false);
   const [visibleCategories, setVisibleCategories] = useState<string[]>([]);
+
+  const addCategory = useCallback((category: string) => {
+    setVisibleCategories(prev => [...prev, category]);
+  }, []);
 
   useEffect(() => {
     // Başlık görünür olduktan sonra description yazılmaya başlasın
@@ -40,13 +44,14 @@ export function PageIntro({ title, description, categories }: PageIntroProps) {
   // Kategorileri sırayla göster
   useEffect(() => {
     if (showCategories) {
-      categories.forEach((_, index) => {
-        setTimeout(() => {
-          setVisibleCategories(prev => [...prev, categories[index]]);
+      categories.forEach((category, index) => {
+        const timer = setTimeout(() => {
+          addCategory(category);
         }, index * 200);
+        return () => clearTimeout(timer);
       });
     }
-  }, [showCategories, categories]);
+  }, [showCategories, categories, addCategory]);
 
   return (
     <div className="mb-16 text-center cyber-glass p-8 rounded-xl">

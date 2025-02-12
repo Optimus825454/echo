@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Project, BlogPost, Video } from '../../types';
-import { FileText, FolderKanban } from 'lucide-react';
+import { FileText, FolderKanban, Video as VideoIcon } from 'lucide-react';
 
 
 
@@ -12,7 +12,8 @@ const sampleProjects: Project[] = [
     description: 'React ve Node.js kullanılarak geliştirilmiş modern bir e-ticaret platformu',
     image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=500',
     link: 'https://github.com/example/ecommerce',
-    date: new Date('2024-01-15').toISOString()
+    date: new Date('2024-01-15').toISOString(),
+    tags: ['React', 'Node.js', 'E-ticaret', 'TypeScript']
   },
   {
     id: '2',
@@ -20,7 +21,8 @@ const sampleProjects: Project[] = [
     description: 'Kişisel blog yazıları için geliştirilen modern ve hızlı platform',
     image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=500',
     link: 'https://github.com/example/blog',
-    date: new Date('2024-02-01').toISOString()
+    date: new Date('2024-02-01').toISOString(),
+    tags: ['Next.js', 'Blog', 'Tailwind CSS']
   }
 ];
 
@@ -115,7 +117,9 @@ export function AdminDashboard() {
         </div>
         <div className="bg-white p-6 rounded-lg shadow-sm">
           <div className="flex items-center">
-         
+            <div className="p-3 bg-red-100 rounded-full">
+              <VideoIcon className="w-6 h-6 text-red-600" />
+            </div>
             <div className="ml-4">
               <h2 className="text-lg font-semibold text-gray-700">Videolar</h2>
               <p className="text-3xl font-bold text-gray-900">{counts.videos}</p>

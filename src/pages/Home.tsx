@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { Image } from '../components/Image';
+import { ErrorBoundary } from '../components/ErrorBoundary';
 
 const Home: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(1);
@@ -46,9 +48,10 @@ const Home: React.FC = () => {
         <div className="flex flex-col md:flex-row gap-8 justify-center items-start">
           {/* Sol sütun - Değişen resimler */}
           <div className="w-full md:w-[500px]">
-            <div className="cyber-frame relative w-full" style={{ height: '450px' }}>
+            <ErrorBoundary>
+              <div className="cyber-frame relative w-full" style={{ height: '350px' }}>
                 {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
-                  <img 
+                  <Image 
                     key={num}
                     src={`/images/H${num}.png`}
                     alt={`Slide ${num}`}
@@ -59,7 +62,8 @@ const Home: React.FC = () => {
                     }`}
                   />
                 ))}
-            </div>
+              </div>
+            </ErrorBoundary>
           </div>
 
           {/* Sağ sütun - Kartlar */}

@@ -3,10 +3,26 @@ import { Project, BlogPost, Video } from '../types';
 
 const handleResponse = async (response: Response) => {
   if (!response.ok) {
-    const error = await response.json();
-    throw new Error(error.message || 'API error occurred');
+    try {
+      const error = await response.json();
+      throw new Error(error.message || 'API error occurred');
+    } catch (e) {
+      throw new Error('API error occurred');
+    }
   }
-  return response.json();
+
+  try {
+    const data = await response.json();
+    if (!data) {
+      throw new Error('Empty response received');
+    }
+    return data;
+  } catch (e) {
+    if (response.status === 204) {
+      return null; // No content
+    }
+    throw new Error('Invalid JSON response');
+  }
 };
 
 // Projects API

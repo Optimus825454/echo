@@ -2,6 +2,12 @@ import { useState, useEffect } from 'react';
 import { Video } from '../../types';
 import { Plus, Pencil, Trash2 } from 'lucide-react';
 
+interface FormErrors {
+  title?: string;
+  embedUrl?: string;
+  description?: string;
+}
+
 export function AdminVideos() {
   const [videos, setVideos] = useState<Video[]>([]);
   const [editingVideo, setEditingVideo] = useState<Video | null>(null);
@@ -10,6 +16,7 @@ export function AdminVideos() {
     embedUrl: '',
     description: '',
   });
+  const [formErrors, setFormErrors] = useState<FormErrors>({});
 
   useEffect(() => {
     const storedVideos = localStorage.getItem('videos');
@@ -18,8 +25,44 @@ export function AdminVideos() {
     }
   }, []);
 
+  const validateForm = (): boolean => {
+    const errors: FormErrors = {};
+    
+    if (!formData.title.trim()) {
+      errors.title = 'Başlık zorunludur';
+    } else if (formData.title.length < 3) {
+      errors.title = 'Başlık en az 3 karakter olmalıdır';
+    }
+
+    if (!formData.embedUrl.trim()) {
+      errors.embedUrl = 'Video URL zorunludur';
+    } else if (!isValidYouTubeUrl(formData.embedUrl)) {
+      errors.embedUrl = 'Geçerli bir YouTube embed URL\'si giriniz';
+    }
+
+    if (!formData.description.trim()) {
+      errors.description = 'Açıklama zorunludur';
+    } else if (formData.description.length < 20) {
+      errors.description = 'Açıklama en az 20 karakter olmalıdır';
+    }
+
+    setFormErrors(errors);
+    return Object.keys(errors).length === 0;
+  };
+
+  const isValidYouTubeUrl = (url: string): boolean => {
+    try {
+      const urlObj = new URL(url);
+      return urlObj.hostname === 'www.youtube.com' && urlObj.pathname.includes('/embed/');
+    } catch {
+      return false;
+    }
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    if (!validateForm()) return;
+
     const newVideo: Video = {
       id: editingVideo?.id || Date.now().toString(),
       ...formData,
@@ -77,10 +120,18 @@ export function AdminVideos() {
             <input
               type="text"
               value={formData.title}
-              onChange={(e) => setFormData({ ...formData, title: e.target.value })}
-              className="w-full px-3 py-2 border border-gray-300 rounded-md"
+              onChange={(e) => {
+                setFormData({ ...formData, title: e.target.value });
+                setFormErrors({ ...formErrors, title: undefined });
+              }}
+              className={`w-full px-3 py-2 border rounded-md ${
+                formErrors.title ? 'border-red-500' : 'border-gray-300'
+              }`}
               required
             />
+            {formErrors.title && (
+              <p className="mt-1 text-sm text-red-500">{formErrors.title}</p>
+            )}
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">

@@ -2,6 +2,11 @@ import { useState, useEffect } from 'react';
 import { BlogPost } from '../../types';
 import { Plus, Pencil, Trash2 } from 'lucide-react';
 
+interface FormErrors {
+  title?: string;
+  content?: string;
+}
+
 export function AdminBlog() {
   const [posts, setPosts] = useState<BlogPost[]>([]);
   const [editingPost, setEditingPost] = useState<BlogPost | null>(null);
@@ -9,6 +14,7 @@ export function AdminBlog() {
     title: '',
     content: '',
   });
+  const [formErrors, setFormErrors] = useState<FormErrors>({});
 
   useEffect(() => {
     const storedPosts = localStorage.getItem('blogPosts');
@@ -17,8 +23,29 @@ export function AdminBlog() {
     }
   }, []);
 
+  const validateForm = (): boolean => {
+    const errors: FormErrors = {};
+    
+    if (!formData.title.trim()) {
+      errors.title = 'Başlık zorunludur';
+    } else if (formData.title.length < 3) {
+      errors.title = 'Başlık en az 3 karakter olmalıdır';
+    }
+
+    if (!formData.content.trim()) {
+      errors.content = 'İçerik zorunludur';
+    } else if (formData.content.length < 50) {
+      errors.content = 'İçerik en az 50 karakter olmalıdır';
+    }
+
+    setFormErrors(errors);
+    return Object.keys(errors).length === 0;
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    if (!validateForm()) return;
+
     const newPost: BlogPost = {
       id: editingPost?.id || Date.now().toString(),
       ...formData,
@@ -74,10 +101,18 @@ export function AdminBlog() {
             <input
               type="text"
               value={formData.title}
-              onChange={(e) => setFormData({ ...formData, title: e.target.value })}
-              className="w-full px-3 py-2 border border-gray-300 rounded-md"
+              onChange={(e) => {
+                setFormData({ ...formData, title: e.target.value });
+                setFormErrors({ ...formErrors, title: undefined });
+              }}
+              className={`w-full px-3 py-2 border rounded-md ${
+                formErrors.title ? 'border-red-500' : 'border-gray-300'
+              }`}
               required
             />
+            {formErrors.title && (
+              <p className="mt-1 text-sm text-red-500">{formErrors.title}</p>
+            )}
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">

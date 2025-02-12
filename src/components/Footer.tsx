@@ -5,33 +5,15 @@ export function Footer() {
   return (
     <footer className="bg-[#12121a] cyber-border">
       <div className="max-w-5xl mx-auto px-4 py-6">
-        <div className="flex justify-between items-center">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+          {/* Sosyal medya linkleri */}
           <div className="flex space-x-6">
-            <a
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-[#0ff] transition-colors duration-200"
-            >
-              <Github className="w-5 h-5" />
-            </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-[#0ff] transition-colors duration-200"
-            >
-              <Twitter className="w-5 h-5" />
-            </a>
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-[#0ff] transition-colors duration-200"
-            >
-              <Linkedin className="w-5 h-5" />
-            </a>
+            <SocialLink href="https://github.com" icon={<Github className="w-5 h-5" />} />
+            <SocialLink href="https://twitter.com" icon={<Twitter className="w-5 h-5" />} />
+            <SocialLink href="https://linkedin.com" icon={<Linkedin className="w-5 h-5" />} />
           </div>
+
+          {/* Admin linki */}
           <Link
             to="/admin/login"
             className="flex items-center text-gray-400 hover:text-[#0ff] transition-colors duration-200"
@@ -44,3 +26,15 @@ export function Footer() {
     </footer>
   );
 }
+
+// Sosyal medya linki bileşeni
+const SocialLink = ({ href, icon }: { href: string; icon: React.ReactNode }) => (
+  <a
+    href={href}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-gray-400 hover:text-[#0ff] transition-colors duration-200"
+  >
+    {icon}
+  </a>
+);

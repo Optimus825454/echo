@@ -3,6 +3,13 @@ import { Project } from '../../types';
 import { projectsApi } from '../../services/api';
 import { Plus, Pencil, Trash2 } from 'lucide-react';
 
+interface FormErrors {
+  title?: string;
+  description?: string;
+  image?: string;
+  link?: string;
+}
+
 export function AdminProjects() {
   const [projects, setProjects] = useState<Project[]>([]);
   const [editingProject, setEditingProject] = useState<Project | null>(null);
@@ -13,7 +20,9 @@ export function AdminProjects() {
     description: '',
     image: '',
     link: '',
+    tags: [] as string[]
   });
+  const [formErrors, setFormErrors] = useState<FormErrors>({});
 
   useEffect(() => {
     loadProjects();
@@ -32,16 +41,59 @@ export function AdminProjects() {
     }
   };
 
+  const validateForm = (): boolean => {
+    const errors: FormErrors = {};
+    
+    if (!formData.title.trim()) {
+      errors.title = 'Başlık zorunludur';
+    } else if (formData.title.length < 3) {
+      errors.title = 'Başlık en az 3 karakter olmalıdır';
+    }
+
+    if (!formData.description.trim()) {
+      errors.description = 'Açıklama zorunludur';
+    } else if (formData.description.length < 10) {
+      errors.description = 'Açıklama en az 10 karakter olmalıdır';
+    }
+
+    if (formData.image && !isValidUrl(formData.image)) {
+      errors.image = 'Geçerli bir URL giriniz';
+    }
+
+    if (formData.link && !isValidUrl(formData.link)) {
+      errors.link = 'Geçerli bir URL giriniz';
+    }
+
+    setFormErrors(errors);
+    return Object.keys(errors).length === 0;
+  };
+
+  const isValidUrl = (url: string): boolean => {
+    try {
+      new URL(url);
+      return true;
+    } catch {
+      return false;
+    }
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (!validateForm()) return;
+
     setLoading(true);
     setError(null);
 
     try {
+      const projectData = {
+        ...formData,
+        tags: formData.tags
+      };
+
       if (editingProject) {
-        await projectsApi.update(editingProject.id, formData);
+        await projectsApi.update(editingProject.id, projectData);
       } else {
-        await projectsApi.create(formData);
+        await projectsApi.create(projectData);
       }
       await loadProjects();
       resetForm();
@@ -60,6 +112,7 @@ export function AdminProjects() {
       description: project.description,
       image: project.image || '',
       link: project.link || '',
+      tags: project.tags || []
     });
   };
 
@@ -89,6 +142,7 @@ export function AdminProjects() {
       description: '',
       image: '',
       link: '',
+      tags: []
     });
   };
 
@@ -115,11 +169,19 @@ export function AdminProjects() {
             <input
               type="text"
               value={formData.title}
-              onChange={(e) => setFormData({ ...formData, title: e.target.value })}
-              className="w-full px-3 py-2 border border-gray-300 rounded-md"
+              onChange={(e) => {
+                setFormData({ ...formData, title: e.target.value });
+                setFormErrors({ ...formErrors, title: undefined });
+              }}
+              className={`w-full px-3 py-2 border rounded-md ${
+                formErrors.title ? 'border-red-500' : 'border-gray-300'
+              }`}
               required
               disabled={loading}
             />
+            {formErrors.title && (
+              <p className="mt-1 text-sm text-red-500">{formErrors.title}</p>
+            )}
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
@@ -156,6 +218,24 @@ export function AdminProjects() {
               onChange={(e) => setFormData({ ...formData, link: e.target.value })}
               className="w-full px-3 py-2 border border-gray-300 rounded-md"
               disabled={loading}
+            />
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              Etiketler (virgülle ayırın)
+            </label>
+            <input
+              type="text"
+              value={formData.tags.join(', ')}
+              onChange={(e) => {
+                const tagsArray = e.target.value
+                  .split(',')
+                  .map(tag => tag.trim())
+                  .filter(tag => tag !== '');
+                setFormData({ ...formData, tags: tagsArray });
+              }}
+              className="w-full px-3 py-2 border border-gray-300 rounded-md"
+              placeholder="React, TypeScript, Tailwind"
             />
           </div>
           <div className="flex gap-2">

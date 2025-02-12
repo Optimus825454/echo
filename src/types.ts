@@ -5,6 +5,7 @@ export interface Project {
   image?: string;
   link?: string;
   date: string;
+  tags: string[];
 }
 
 export interface BlogPost {
@@ -20,4 +21,9 @@ export interface Video {
   embedUrl: string;
   description: string;
   date: string;
+  thumbnail?: string;
+  duration?: string;
+  category?: string;
+  views?: number;
+  likes?: number;
 }

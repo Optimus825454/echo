@@ -23,12 +23,26 @@ export function AdminLogin() {
 
     try {
       const { token } = await authApi.login(password);
+      
+      // Token'ın geçerliliğini kontrol et
+      if (!token || typeof token !== 'string') {
+        throw new Error('Geçersiz token');
+      }
+
+      // Token'ı güvenli bir şekilde sakla
       localStorage.setItem('adminToken', token);
       localStorage.setItem('adminAuthenticated', 'true');
+      localStorage.setItem('tokenExpiry', (Date.now() + 24 * 60 * 60 * 1000).toString()); // 24 saat
+      
       navigate('/admin', { replace: true });
     } catch (err) {
       setError('Geçersiz şifre veya bir hata oluştu');
       console.error(err);
+      
+      // Hata durumunda token ve auth bilgilerini temizle
+      localStorage.removeItem('adminToken');
+      localStorage.removeItem('adminAuthenticated');
+      localStorage.removeItem('tokenExpiry');
     } finally {
       setIsLoading(false);
     }
