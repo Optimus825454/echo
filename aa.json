@@ -1,0 +1,3254 @@
+Astro data after session: {
+    'planet_positions': {
+        'Sun': {
+            'degree': 80.26,
+            'sign': 'İkizler',
+            'retrograde': False,
+            'house': 8
+        },
+        'Moon': {
+            'degree': 313.22,
+            'sign': 'Kova',
+            'retrograde': False,
+            'house': 4
+        },
+        'Mercury': {
+            'degree': 66.84,
+            'sign': 'İkizler',
+            'retrograde': True,
+            'house': 8
+        },
+        'Venus': {
+            'degree': 43.56,
+            'sign': 'Boğa',
+            'retrograde': False,
+            'house': 7
+        },
+        'Mars': {
+            'degree': 185.61,
+            'sign': 'Terazi',
+            'retrograde': False,
+            'house': 12
+        },
+        'Jupiter': {
+            'degree': 210.83,
+            'sign': 'Akrep',
+            'retrograde': True,
+            'house': 1
+        },
+        'Saturn': {
+            'degree': 195.54,
+            'sign': 'Terazi',
+            'retrograde': True,
+            'house': 12
+        },
+        'Uranus': {
+            'degree': 241.87,
+            'sign': 'Yay',
+            'retrograde': True,
+            'house': 2
+        },
+        'Neptune': {
+            'degree': 265.82,
+            'sign': 'Yay',
+            'retrograde': True,
+            'house': 3
+        },
+        'Pluto': {
+            'degree': 204.26,
+            'sign': 'Terazi',
+            'retrograde': True,
+            'house': 1
+        }
+    },
+    'ascendant': {
+        'sign': 'Başak',
+        'degree': 168.12,
+        'degree_in_sign': 18.12,
+        'decan': 2,
+        'house_cusps': [
+            168.12,
+            193.1,
+            222.82,
+            256.21,
+            290.13,
+            321.17,
+            348.12,
+            13.1,
+            42.82,
+            76.21,
+            110.13,
+            141.17
+        ],
+        'debug': {
+            'jd': 2445131.902777778,
+            'local_time': '12: 40',
+            'utc_time': '09: 40',
+            'raw_degree': 168.1207837400857
+        }
+    },
+    'planet_signs': {
+        'Sun': 'İkizler',
+        'Moon': 'Kova',
+        'Mercury': 'İkizler',
+        'Venus': 'Boğa',
+        'Mars': 'Terazi',
+        'Jupiter': 'Akrep',
+        'Saturn': 'Terazi',
+        'Uranus': 'Yay',
+        'Neptune': 'Yay',
+        'Pluto': 'Terazi'
+    },
+    'aspects': [{
+            'transit_planet': 'Mars',
+            'natal_planet': 'Mercury',
+            'aspect': 'Trine',
+            'orb': 1.23
+        },
+        {
+            'transit_planet': 'Neptune',
+            'natal_planet': 'Pluto',
+            'aspect': 'Sextile',
+            'orb': 1.56
+        },
+        {
+            'transit_planet': 'Moon',
+            'natal_planet': 'Saturn',
+            'aspect': 'Trine',
+            'orb': 2.32
+        },
+        {
+            'transit_planet': 'Mars',
+            'natal_planet': 'Uranus',
+            'aspect': 'Sextile',
+            'orb': 3.74
+        },
+        {
+            'transit_planet': 'Pluto',
+            'natal_planet': 'Sun',
+            'aspect': 'Trine',
+            'orb': 4.0
+        },
+        {
+            'transit_planet': 'Saturn',
+            'natal_planet': 'Sun',
+            'aspect': 'Trine',
+            'orb': 4.72
+        },
+        {
+            'transit_planet': 'Mercury',
+            'natal_planet': 'Uranus',
+            'aspect': 'Opposition',
+            'orb': 4.97
+        },
+        {
+            'transit_planet': 'Neptune',
+            'natal_planet': 'Sun',
+            'aspect': 'Opposition',
+            'orb': 5.56
+        },
+        {
+            'transit_planet': 'Jupiter',
+            'natal_planet': 'Pluto',
+            'aspect': 'Conjunction',
+            'orb': 6.57
+        },
+        {
+            'transit_planet': 'Mars',
+            'natal_planet': 'Moon',
+            'aspect': 'Trine',
+            'orb': 7.61
+        },
+        {
+            'transit_planet': 'Pluto',
+            'natal_planet': 'Saturn',
+            'aspect': 'Conjunction',
+            'orb': 8.72
+        },
+        {
+            'transit_planet': 'Mars',
+            'natal_planet': 'Saturn',
+            'aspect': 'Conjunction',
+            'orb': 9.93
+        }
+    ],
+    'major_aspects': [{
+            'planet1': 'Moon',
+            'planet2': 'Venus',
+            'aspect_type': 'Square',
+            'orb': 0.34
+        },
+        {
+            'planet1': 'Mercury',
+            'planet2': 'Mars',
+            'aspect_type': 'Trine',
+            'orb': 1.23
+        },
+        {
+            'planet1': 'Neptune',
+            'planet2': 'Pluto',
+            'aspect_type': 'Sextile',
+            'orb': 1.56
+        },
+        {
+            'planet1': 'Moon',
+            'planet2': 'Saturn',
+            'aspect_type': 'Trine',
+            'orb': 2.32
+        },
+        {
+            'planet1': 'Mars',
+            'planet2': 'Uranus',
+            'aspect_type': 'Sextile',
+            'orb': 3.74
+        },
+        {
+            'planet1': 'Sun',
+            'planet2': 'Pluto',
+            'aspect_type': 'Trine',
+            'orb': 4.0
+        },
+        {
+            'planet1': 'Sun',
+            'planet2': 'Saturn',
+            'aspect_type': 'Trine',
+            'orb': 4.72
+        },
+        {
+            'planet1': 'Mercury',
+            'planet2': 'Uranus',
+            'aspect_type': 'Opposition',
+            'orb': 4.97
+        },
+        {
+            'planet1': 'Jupiter',
+            'planet2': 'Neptune',
+            'aspect_type': 'Sextile',
+            'orb': 5.01
+        },
+        {
+            'planet1': 'Sun',
+            'planet2': 'Neptune',
+            'aspect_type': 'Opposition',
+            'orb': 5.56
+        },
+        {
+            'planet1': 'Moon',
+            'planet2': 'Mercury',
+            'aspect_type': 'Trine',
+            'orb': 6.38
+        },
+        {
+            'planet1': 'Jupiter',
+            'planet2': 'Pluto',
+            'aspect_type': 'Conjunction',
+            'orb': 6.57
+        },
+        {
+            'planet1': 'Sun',
+            'planet2': 'Moon',
+            'aspect_type': 'Trine',
+            'orb': 7.04
+        },
+        {
+            'planet1': 'Moon',
+            'planet2': 'Mars',
+            'aspect_type': 'Trine',
+            'orb': 7.61
+        }
+    ],
+    'harmonics': {
+        'Sun': 329.4,
+        'Moon': 275.47,
+        'Mercury': 153.63,
+        'Venus': 300.94,
+        'Mars': 223.96,
+        'Jupiter': 153.34,
+        'Saturn': 261.52,
+        'Uranus': 315.01,
+        'Neptune': 192.89,
+        'Pluto': 250.5
+    },
+    'deep_harmonics': {
+        'D7': {
+            'name': 'Saptamsa',
+            'interpretation': 'Çocuklar ve yaratıcılık',
+            'details': 'Çocuklar, eğitim, yaratıcı yetenekler ve hobiler hakkında bilgi verir',
+            'positions': {
+                'Sun': 166.37,
+                'Moon': 251.32,
+                'Mercury': 197.53,
+                'Venus': 78.35,
+                'Mars': 185.09,
+                'Jupiter': 42.86,
+                'Saturn': 336.24,
+                'Uranus': 199.3,
+                'Neptune': 350.86,
+                'Pluto': 64.92
+            },
+            'signs': {
+                'Sun': 'Başak',
+                'Moon': 'Yay',
+                'Mercury': 'Terazi',
+                'Venus': 'İkizler',
+                'Mars': 'Terazi',
+                'Jupiter': 'Boğa',
+                'Saturn': 'Balık',
+                'Uranus': 'Terazi',
+                'Neptune': 'Balık',
+                'Pluto': 'İkizler'
+            },
+            'aspects': [{
+                    'planets': ['Sun', 'Venus'],
+                    'aspect': 'Kare',
+                    'degree': 88.02
+                },
+                {
+                    'planets': ['Sun', 'Jupiter'],
+                    'aspect': 'Üçgen',
+                    'degree': 123.51
+                },
+                {
+                    'planets': ['Sun', 'Neptune'],
+                    'aspect': 'Kavuşum',
+                    'degree': 4.49
+                },
+                {
+                    'planets': ['Moon', 'Pluto'],
+                    'aspect': 'Kavuşum',
+                    'degree': 6.4
+                },
+                {
+                    'planets': ['Mercury', 'Venus'],
+                    'aspect': 'Üçgen',
+                    'degree': 119.18
+                },
+                {
+                    'planets': ['Mercury', 'Uranus'],
+                    'aspect': 'Kavuşum',
+                    'degree': 1.77
+                },
+                {
+                    'planets': ['Venus', 'Uranus'],
+                    'aspect': 'Üçgen',
+                    'degree': 120.95
+                },
+                {
+                    'planets': ['Venus', 'Neptune'],
+                    'aspect': 'Kare',
+                    'degree': 92.51
+                },
+                {
+                    'planets': ['Mars', 'Pluto'],
+                    'aspect': 'Üçgen',
+                    'degree': 120.17
+                },
+                {
+                    'planets': ['Saturn', 'Pluto'],
+                    'aspect': 'Kare',
+                    'degree': 91.32
+                }
+            ]
+        },
+        'D9': {
+            'name': 'Navamsa',
+            'interpretation': 'Dharma ve spiritüel yol',
+            'details': 'Evlilik, spiritüel gelişim ve yaşam amacı hakkında bilgi verir',
+            'positions': {
+                'Sun': 329.4,
+                'Moon': 275.47,
+                'Mercury': 153.63,
+                'Venus': 300.94,
+                'Mars': 223.96,
+                'Jupiter': 153.34,
+                'Saturn': 261.52,
+                'Uranus': 315.01,
+                'Neptune': 192.89,
+                'Pluto': 250.5
+            },
+            'signs': {
+                'Sun': 'Kova',
+                'Moon': 'Oğlak',
+                'Mercury': 'Başak',
+                'Venus': 'Kova',
+                'Mars': 'Akrep',
+                'Jupiter': 'Başak',
+                'Saturn': 'Yay',
+                'Uranus': 'Kova',
+                'Neptune': 'Terazi',
+                'Pluto': 'Yay'
+            },
+            'aspects': [{
+                    'planets': ['Sun', 'Mercury'],
+                    'aspect': 'Karşıt',
+                    'degree': 175.77
+                },
+                {
+                    'planets': ['Sun', 'Jupiter'],
+                    'aspect': 'Karşıt',
+                    'degree': 176.06
+                },
+                {
+                    'planets': ['Moon', 'Mercury'],
+                    'aspect': 'Üçgen',
+                    'degree': 121.84
+                },
+                {
+                    'planets': ['Moon', 'Jupiter'],
+                    'aspect': 'Üçgen',
+                    'degree': 122.13
+                },
+                {
+                    'planets': ['Mercury', 'Jupiter'],
+                    'aspect': 'Kavuşum',
+                    'degree': 0.29
+                },
+                {
+                    'planets': ['Mars', 'Uranus'],
+                    'aspect': 'Kare',
+                    'degree': 91.05
+                },
+                {
+                    'planets': ['Uranus', 'Neptune'],
+                    'aspect': 'Üçgen',
+                    'degree': 122.12
+                },
+                {
+                    'planets': ['Uranus', 'Pluto'],
+                    'aspect': 'Altmışlık',
+                    'degree': 64.51
+                },
+                {
+                    'planets': ['Neptune', 'Pluto'],
+                    'aspect': 'Altmışlık',
+                    'degree': 57.61
+                }
+            ]
+        },
+        'D10': {
+            'name': 'Dasamsa',
+            'interpretation': 'Kariyer ve başarı',
+            'details': 'Meslek, kariyer, başarı ve sosyal statü hakkında bilgi verir',
+            'positions': {
+                'Sun': 8.46,
+                'Moon': 103.93,
+                'Mercury': 246.27,
+                'Venus': 126.84,
+                'Mars': 201.57,
+                'Jupiter': 30.01,
+                'Saturn': 199.37,
+                'Uranus': 67.51,
+                'Neptune': 209.6,
+                'Pluto': 153.45
+            },
+            'signs': {
+                'Sun': 'Koç',
+                'Moon': 'Yengeç',
+                'Mercury': 'Yay',
+                'Venus': 'Aslan',
+                'Mars': 'Terazi',
+                'Jupiter': 'Boğa',
+                'Saturn': 'Terazi',
+                'Uranus': 'İkizler',
+                'Neptune': 'Terazi',
+                'Pluto': 'Başak'
+            },
+            'aspects': [{
+                    'planets': ['Sun', 'Mercury'],
+                    'aspect': 'Altmışlık',
+                    'degree': 57.81
+                },
+                {
+                    'planets': ['Sun', 'Venus'],
+                    'aspect': 'Üçgen',
+                    'degree': 118.38
+                },
+                {
+                    'planets': ['Sun', 'Uranus'],
+                    'aspect': 'Altmışlık',
+                    'degree': 59.05
+                },
+                {
+                    'planets': ['Mercury', 'Venus'],
+                    'aspect': 'Üçgen',
+                    'degree': 119.43
+                },
+                {
+                    'planets': ['Mercury', 'Uranus'],
+                    'aspect': 'Karşıt',
+                    'degree': 178.76
+                },
+                {
+                    'planets': ['Mercury', 'Pluto'],
+                    'aspect': 'Kare',
+                    'degree': 92.82
+                },
+                {
+                    'planets': ['Venus', 'Uranus'],
+                    'aspect': 'Altmışlık',
+                    'degree': 59.33
+                },
+                {
+                    'planets': ['Mars', 'Saturn'],
+                    'aspect': 'Kavuşum',
+                    'degree': 2.2
+                },
+                {
+                    'planets': ['Mars', 'Neptune'],
+                    'aspect': 'Kavuşum',
+                    'degree': 8.03
+                },
+                {
+                    'planets': ['Jupiter', 'Neptune'],
+                    'aspect': 'Karşıt',
+                    'degree': 179.59
+                },
+                {
+                    'planets': ['Jupiter', 'Pluto'],
+                    'aspect': 'Üçgen',
+                    'degree': 123.44
+                },
+                {
+                    'planets': ['Uranus', 'Pluto'],
+                    'aspect': 'Kare',
+                    'degree': 85.94
+                },
+                {
+                    'planets': ['Neptune', 'Pluto'],
+                    'aspect': 'Altmışlık',
+                    'degree': 56.15
+                }
+            ]
+        },
+        'D12': {
+            'name': 'Dvadasamsa',
+            'interpretation': 'Ebeveynler ve atalar',
+            'details': 'Aile mirası, ebeveynler ve geçmiş yaşamlar hakkında bilgi verir',
+            'positions': {
+                'Sun': 247.05,
+                'Moon': 26.61,
+                'Mercury': 205.22,
+                'Venus': 225.7,
+                'Mars': 167.97,
+                'Jupiter': 205.0,
+                'Saturn': 106.14,
+                'Uranus': 56.26,
+                'Neptune': 54.67,
+                'Pluto': 7.87
+            },
+            'signs': {
+                'Sun': 'Yay',
+                'Moon': 'Koç',
+                'Mercury': 'Terazi',
+                'Venus': 'Akrep',
+                'Mars': 'Başak',
+                'Jupiter': 'Terazi',
+                'Saturn': 'Yengeç',
+                'Uranus': 'Boğa',
+                'Neptune': 'Boğa',
+                'Pluto': 'Koç'
+            },
+            'aspects': [{
+                    'planets': ['Sun', 'Pluto'],
+                    'aspect': 'Altmışlık',
+                    'degree': 59.18
+                },
+                {
+                    'planets': ['Moon', 'Mercury'],
+                    'aspect': 'Karşıt',
+                    'degree': 178.61
+                },
+                {
+                    'planets': ['Moon', 'Jupiter'],
+                    'aspect': 'Karşıt',
+                    'degree': 178.39
+                },
+                {
+                    'planets': ['Mercury', 'Jupiter'],
+                    'aspect': 'Kavuşum',
+                    'degree': 0.22
+                },
+                {
+                    'planets': ['Venus', 'Mars'],
+                    'aspect': 'Altmışlık',
+                    'degree': 57.73
+                },
+                {
+                    'planets': ['Venus', 'Saturn'],
+                    'aspect': 'Üçgen',
+                    'degree': 119.56
+                },
+                {
+                    'planets': ['Mars', 'Saturn'],
+                    'aspect': 'Altmışlık',
+                    'degree': 61.83
+                },
+                {
+                    'planets': ['Uranus', 'Neptune'],
+                    'aspect': 'Kavuşum',
+                    'degree': 1.59
+                }
+            ]
+        },
+        'D16': {
+            'name': 'Shodasamsa',
+            'interpretation': 'Taşıtlar ve konfor',
+            'details': 'Araçlar, lüks yaşam ve maddi konfor hakkında bilgi verir',
+            'positions': {
+                'Sun': 5.29,
+                'Moon': 199.95,
+                'Mercury': 63.92,
+                'Venus': 259.28,
+                'Mars': 215.98,
+                'Jupiter': 63.75,
+                'Saturn': 79.6,
+                'Uranus': 42.2,
+                'Neptune': 221.0,
+                'Pluto': 275.9
+            },
+            'signs': {
+                'Sun': 'Koç',
+                'Moon': 'Terazi',
+                'Mercury': 'İkizler',
+                'Venus': 'Yay',
+                'Mars': 'Akrep',
+                'Jupiter': 'İkizler',
+                'Saturn': 'İkizler',
+                'Uranus': 'Boğa',
+                'Neptune': 'Akrep',
+                'Pluto': 'Oğlak'
+            },
+            'aspects': [{
+                    'planets': ['Sun', 'Mercury'],
+                    'aspect': 'Altmışlık',
+                    'degree': 58.63
+                },
+                {
+                    'planets': ['Sun', 'Jupiter'],
+                    'aspect': 'Altmışlık',
+                    'degree': 58.46
+                },
+                {
+                    'planets': ['Sun', 'Pluto'],
+                    'aspect': 'Kare',
+                    'degree': 90.61
+                },
+                {
+                    'planets': ['Moon', 'Venus'],
+                    'aspect': 'Altmışlık',
+                    'degree': 59.33
+                },
+                {
+                    'planets': ['Moon', 'Saturn'],
+                    'aspect': 'Üçgen',
+                    'degree': 120.35
+                },
+                {
+                    'planets': ['Mercury', 'Jupiter'],
+                    'aspect': 'Kavuşum',
+                    'degree': 0.17
+                },
+                {
+                    'planets': ['Venus', 'Saturn'],
+                    'aspect': 'Karşıt',
+                    'degree': 179.68
+                },
+                {
+                    'planets': ['Mars', 'Neptune'],
+                    'aspect': 'Kavuşum',
+                    'degree': 5.02
+                },
+                {
+                    'planets': ['Mars', 'Pluto'],
+                    'aspect': 'Altmışlık',
+                    'degree': 59.92
+                },
+                {
+                    'planets': ['Uranus', 'Neptune'],
+                    'aspect': 'Karşıt',
+                    'degree': 178.8
+                }
+            ]
+        },
+        'D20': {
+            'name': 'Vimsamsa',
+            'interpretation': 'Spiritüel uygulamalar',
+            'details': 'Manevi gelişim, ibadet ve dini uygulamalar hakkında bilgi verir',
+            'positions': {
+                'Sun': 4.23,
+                'Moon': 231.96,
+                'Mercury': 123.13,
+                'Venus': 63.42,
+                'Mars': 100.78,
+                'Jupiter': 195.0,
+                'Saturn': 279.68,
+                'Uranus': 33.76,
+                'Neptune': 104.8,
+                'Pluto': 76.72
+            },
+            'signs': {
+                'Sun': 'Koç',
+                'Moon': 'Akrep',
+                'Mercury': 'Aslan',
+                'Venus': 'İkizler',
+                'Mars': 'Yengeç',
+                'Jupiter': 'Terazi',
+                'Saturn': 'Oğlak',
+                'Uranus': 'Boğa',
+                'Neptune': 'Yengeç',
+                'Pluto': 'İkizler'
+            },
+            'aspects': [{
+                    'planets': ['Sun', 'Mercury'],
+                    'aspect': 'Üçgen',
+                    'degree': 118.9
+                },
+                {
+                    'planets': ['Sun', 'Venus'],
+                    'aspect': 'Altmışlık',
+                    'degree': 59.19
+                },
+                {
+                    'planets': ['Mercury', 'Venus'],
+                    'aspect': 'Altmışlık',
+                    'degree': 59.71
+                },
+                {
+                    'planets': ['Mercury', 'Uranus'],
+                    'aspect': 'Kare',
+                    'degree': 89.37
+                },
+                {
+                    'planets': ['Mars', 'Jupiter'],
+                    'aspect': 'Kare',
+                    'degree': 94.22
+                },
+                {
+                    'planets': ['Mars', 'Saturn'],
+                    'aspect': 'Karşıt',
+                    'degree': 178.9
+                },
+                {
+                    'planets': ['Mars', 'Neptune'],
+                    'aspect': 'Kavuşum',
+                    'degree': 4.02
+                },
+                {
+                    'planets': ['Jupiter', 'Neptune'],
+                    'aspect': 'Kare',
+                    'degree': 90.2
+                },
+                {
+                    'planets': ['Jupiter', 'Pluto'],
+                    'aspect': 'Üçgen',
+                    'degree': 118.28
+                }
+            ]
+        },
+        'D24': {
+            'name': 'Chaturvimsamsa',
+            'interpretation': 'Eğitim ve öğrenme',
+            'details': 'Akademik başarı, bilgi ve eğitim hakkında bilgi verir',
+            'positions': {
+                'Sun': 123.53,
+                'Moon': 13.3,
+                'Mercury': 282.61,
+                'Venus': 292.85,
+                'Mars': 263.99,
+                'Jupiter': 282.5,
+                'Saturn': 53.07,
+                'Uranus': 28.13,
+                'Neptune': 27.33,
+                'Pluto': 183.94
+            },
+            'signs': {
+                'Sun': 'Aslan',
+                'Moon': 'Koç',
+                'Mercury': 'Oğlak',
+                'Venus': 'Oğlak',
+                'Mars': 'Yay',
+                'Jupiter': 'Oğlak',
+                'Saturn': 'Boğa',
+                'Uranus': 'Koç',
+                'Neptune': 'Koç',
+                'Pluto': 'Terazi'
+            },
+            'aspects': [{
+                    'planets': ['Sun', 'Pluto'],
+                    'aspect': 'Altmışlık',
+                    'degree': 60.41
+                },
+                {
+                    'planets': ['Moon', 'Mercury'],
+                    'aspect': 'Kare',
+                    'degree': 89.31
+                },
+                {
+                    'planets': ['Moon', 'Jupiter'],
+                    'aspect': 'Kare',
+                    'degree': 89.2
+                },
+                {
+                    'planets': ['Mercury', 'Jupiter'],
+                    'aspect': 'Kavuşum',
+                    'degree': 0.11
+                },
+                {
+                    'planets': ['Venus', 'Saturn'],
+                    'aspect': 'Altmışlık',
+                    'degree': 59.78
+                },
+                {
+                    'planets': ['Venus', 'Neptune'],
+                    'aspect': 'Kare',
+                    'degree': 85.52
+                },
+                {
+                    'planets': ['Mars', 'Uranus'],
+                    'aspect': 'Altmışlık',
+                    'degree': 55.86
+                },
+                {
+                    'planets': ['Mars', 'Neptune'],
+                    'aspect': 'Altmışlık',
+                    'degree': 56.66
+                },
+                {
+                    'planets': ['Uranus', 'Neptune'],
+                    'aspect': 'Kavuşum',
+                    'degree': 0.8
+                }
+            ]
+        },
+        'D27': {
+            'name': 'Saptavimsamsa',
+            'interpretation': 'Güç ve kuvvet',
+            'details': 'Fiziksel güç, dayanıklılık ve sağlık hakkında bilgi verir',
+            'positions': {
+                'Sun': 349.8,
+                'Moon': 211.82,
+                'Mercury': 171.21,
+                'Venus': 220.31,
+                'Mars': 314.65,
+                'Jupiter': 291.11,
+                'Saturn': 87.17,
+                'Uranus': 345.0,
+                'Neptune': 304.3,
+                'Pluto': 203.5
+            },
+            'signs': {
+                'Sun': 'Balık',
+                'Moon': 'Akrep',
+                'Mercury': 'Başak',
+                'Venus': 'Akrep',
+                'Mars': 'Kova',
+                'Jupiter': 'Oğlak',
+                'Saturn': 'İkizler',
+                'Uranus': 'Balık',
+                'Neptune': 'Kova',
+                'Pluto': 'Terazi'
+            },
+            'aspects': [{
+                    'planets': ['Sun', 'Mercury'],
+                    'aspect': 'Karşıt',
+                    'degree': 178.59
+                },
+                {
+                    'planets': ['Sun', 'Jupiter'],
+                    'aspect': 'Altmışlık',
+                    'degree': 58.69
+                },
+                {
+                    'planets': ['Sun', 'Uranus'],
+                    'aspect': 'Kavuşum',
+                    'degree': 4.8
+                },
+                {
+                    'planets': ['Moon', 'Venus'],
+                    'aspect': 'Kavuşum',
+                    'degree': 8.49
+                },
+                {
+                    'planets': ['Moon', 'Saturn'],
+                    'aspect': 'Üçgen',
+                    'degree': 124.65
+                },
+                {
+                    'planets': ['Moon', 'Neptune'],
+                    'aspect': 'Kare',
+                    'degree': 92.48
+                },
+                {
+                    'planets': ['Moon', 'Pluto'],
+                    'aspect': 'Kavuşum',
+                    'degree': 8.32
+                },
+                {
+                    'planets': ['Mercury', 'Jupiter'],
+                    'aspect': 'Üçgen',
+                    'degree': 119.9
+                },
+                {
+                    'planets': ['Venus', 'Mars'],
+                    'aspect': 'Kare',
+                    'degree': 94.34
+                },
+                {
+                    'planets': ['Venus', 'Uranus'],
+                    'aspect': 'Üçgen',
+                    'degree': 124.69
+                },
+                {
+                    'planets': ['Jupiter', 'Pluto'],
+                    'aspect': 'Kare',
+                    'degree': 87.61
+                },
+                {
+                    'planets': ['Saturn', 'Pluto'],
+                    'aspect': 'Üçgen',
+                    'degree': 116.33
+                }
+            ]
+        },
+        'D30': {
+            'name': 'Trimsamsa',
+            'interpretation': 'Kötü karma',
+            'details': 'Zorluklar, engeller ve karmik dersler hakkında bilgi verir',
+            'positions': {
+                'Sun': 242.82,
+                'Moon': 154.64,
+                'Mercury': 82.09,
+                'Venus': 162.28,
+                'Mars': 67.19,
+                'Jupiter': 10.0,
+                'Saturn': 186.46,
+                'Uranus': 22.5,
+                'Neptune': 309.87,
+                'Pluto': 291.15
+            },
+            'signs': {
+                'Sun': 'Yay',
+                'Moon': 'Başak',
+                'Mercury': 'İkizler',
+                'Venus': 'Başak',
+                'Mars': 'İkizler',
+                'Jupiter': 'Koç',
+                'Saturn': 'Terazi',
+                'Uranus': 'Koç',
+                'Neptune': 'Kova',
+                'Pluto': 'Oğlak'
+            },
+            'aspects': [{
+                    'planets': ['Sun', 'Moon'],
+                    'aspect': 'Kare',
+                    'degree': 88.18
+                },
+                {
+                    'planets': ['Sun', 'Mars'],
+                    'aspect': 'Karşıt',
+                    'degree': 175.63
+                },
+                {
+                    'planets': ['Sun', 'Saturn'],
+                    'aspect': 'Altmışlık',
+                    'degree': 56.36
+                },
+                {
+                    'planets': ['Moon', 'Venus'],
+                    'aspect': 'Kavuşum',
+                    'degree': 7.64
+                },
+                {
+                    'planets': ['Moon', 'Mars'],
+                    'aspect': 'Kare',
+                    'degree': 87.45
+                },
+                {
+                    'planets': ['Mercury', 'Uranus'],
+                    'aspect': 'Altmışlık',
+                    'degree': 59.59
+                },
+                {
+                    'planets': ['Mars', 'Jupiter'],
+                    'aspect': 'Altmışlık',
+                    'degree': 57.19
+                },
+                {
+                    'planets': ['Mars', 'Saturn'],
+                    'aspect': 'Üçgen',
+                    'degree': 119.27
+                },
+                {
+                    'planets': ['Mars', 'Neptune'],
+                    'aspect': 'Altmışlık',
+                    'degree': 62.68
+                },
+                {
+                    'planets': ['Jupiter', 'Saturn'],
+                    'aspect': 'Karşıt',
+                    'degree': 176.46
+                },
+                {
+                    'planets': ['Jupiter', 'Neptune'],
+                    'aspect': 'Üçgen',
+                    'degree': 119.87
+                },
+                {
+                    'planets': ['Saturn', 'Neptune'],
+                    'aspect': 'Üçgen',
+                    'degree': 123.41
+                },
+                {
+                    'planets': ['Uranus', 'Pluto'],
+                    'aspect': 'Kare',
+                    'degree': 88.65
+                }
+            ]
+        },
+        'D40': {
+            'name': 'Khavedamsa',
+            'interpretation': 'İyileşme ve sağlık',
+            'details': 'Şifa yetenekleri, sağlık ve iyileşme hakkında bilgi verir',
+            'positions': {
+                'Sun': 2.12,
+                'Moon': 295.98,
+                'Mercury': 241.57,
+                'Venus': 31.71,
+                'Mars': 230.39,
+                'Jupiter': 97.5,
+                'Saturn': 319.84,
+                'Uranus': 16.88,
+                'Neptune': 232.4,
+                'Pluto': 38.36
+            },
+            'signs': {
+                'Sun': 'Koç',
+                'Moon': 'Oğlak',
+                'Mercury': 'Yay',
+                'Venus': 'Boğa',
+                'Mars': 'Akrep',
+                'Jupiter': 'Yengeç',
+                'Saturn': 'Kova',
+                'Uranus': 'Koç',
+                'Neptune': 'Akrep',
+                'Pluto': 'Boğa'
+            },
+            'aspects': [{
+                    'planets': ['Sun', 'Mercury'],
+                    'aspect': 'Altmışlık',
+                    'degree': 59.45
+                },
+                {
+                    'planets': ['Moon', 'Neptune'],
+                    'aspect': 'Altmışlık',
+                    'degree': 63.58
+                },
+                {
+                    'planets': ['Mercury', 'Neptune'],
+                    'aspect': 'Kavuşum',
+                    'degree': 9.17
+                },
+                {
+                    'planets': ['Venus', 'Pluto'],
+                    'aspect': 'Kavuşum',
+                    'degree': 6.65
+                },
+                {
+                    'planets': ['Mars', 'Saturn'],
+                    'aspect': 'Kare',
+                    'degree': 89.45
+                },
+                {
+                    'planets': ['Mars', 'Neptune'],
+                    'aspect': 'Kavuşum',
+                    'degree': 2.01
+                },
+                {
+                    'planets': ['Jupiter', 'Pluto'],
+                    'aspect': 'Altmışlık',
+                    'degree': 59.14
+                },
+                {
+                    'planets': ['Saturn', 'Uranus'],
+                    'aspect': 'Üçgen',
+                    'degree': 122.96
+                },
+                {
+                    'planets': ['Saturn', 'Neptune'],
+                    'aspect': 'Kare',
+                    'degree': 87.44
+                }
+            ]
+        },
+        'D45': {
+            'name': 'Akshavedamsa',
+            'interpretation': 'Kutsal yerler',
+            'details': 'Spiritüel mekanlar ve hac yolculukları hakkında bilgi verir',
+            'positions': {
+                'Sun': 281.88,
+                'Moon': 343.09,
+                'Mercury': 174.73,
+                'Venus': 348.19,
+                'Mars': 44.79,
+                'Jupiter': 246.67,
+                'Saturn': 124.3,
+                'Uranus': 135.0,
+                'Neptune': 326.58,
+                'Pluto': 194.1
+            },
+            'signs': {
+                'Sun': 'Oğlak',
+                'Moon': 'Balık',
+                'Mercury': 'Başak',
+                'Venus': 'Balık',
+                'Mars': 'Boğa',
+                'Jupiter': 'Yay',
+                'Saturn': 'Aslan',
+                'Uranus': 'Aslan',
+                'Neptune': 'Kova',
+                'Pluto': 'Terazi'
+            },
+            'aspects': [{
+                    'planets': ['Sun', 'Moon'],
+                    'aspect': 'Altmışlık',
+                    'degree': 61.21
+                },
+                {
+                    'planets': ['Sun', 'Mars'],
+                    'aspect': 'Altmışlık',
+                    'degree': 57.09
+                },
+                {
+                    'planets': ['Sun', 'Pluto'],
+                    'aspect': 'Kare',
+                    'degree': 87.78
+                },
+                {
+                    'planets': ['Moon', 'Venus'],
+                    'aspect': 'Kavuşum',
+                    'degree': 5.1
+                },
+                {
+                    'planets': ['Moon', 'Mars'],
+                    'aspect': 'Üçgen',
+                    'degree': 118.3
+                },
+                {
+                    'planets': ['Venus', 'Mars'],
+                    'aspect': 'Üçgen',
+                    'degree': 123.4
+                },
+                {
+                    'planets': ['Mars', 'Uranus'],
+                    'aspect': 'Kare',
+                    'degree': 90.21
+                },
+                {
+                    'planets': ['Jupiter', 'Saturn'],
+                    'aspect': 'Üçgen',
+                    'degree': 122.37
+                },
+                {
+                    'planets': ['Uranus', 'Pluto'],
+                    'aspect': 'Altmışlık',
+                    'degree': 59.1
+                }
+            ]
+        }
+    },
+    'transit_positions': {
+        'Sun': {
+            'degree': 325.03,
+            'sign': 'Kova',
+            'house': 8,
+            'retrograde': False
+        },
+        'Moon': {
+            'degree': 155.67,
+            'sign': 'Başak',
+            'house': 3,
+            'retrograde': False
+        },
+        'Mercury': {
+            'degree': 328.17,
+            'sign': 'Kova',
+            'house': 9,
+            'retrograde': False
+        },
+        'Venus': {
+            'degree': 5.95,
+            'sign': 'Koç',
+            'house': 10,
+            'retrograde': False
+        },
+        'Mars': {
+            'degree': 107.73,
+            'sign': 'Yengeç',
+            'house': 1,
+            'retrograde': True
+        },
+        'Jupiter': {
+            'degree': 71.42,
+            'sign': 'İkizler',
+            'house': 12,
+            'retrograde': False
+        },
+        'Saturn': {
+            'degree': 348.83,
+            'sign': 'Balık',
+            'house': 9,
+            'retrograde': False
+        },
+        'Uranus': {
+            'degree': 53.35,
+            'sign': 'Boğa',
+            'house': 11,
+            'retrograde': False
+        },
+        'Neptune': {
+            'degree': 358.35,
+            'sign': 'Balık',
+            'house': 10,
+            'retrograde': False
+        },
+        'Pluto': {
+            'degree': 302.44,
+            'sign': 'Kova',
+            'house': 7,
+            'retrograde': False
+        }
+    },
+    'natal_interpretation': ['Yükselen Başak 18.12° (2. dekan)', 'Güneş-Ay kombinasyonu: İkizler (8. ev) - Kova (4. ev)', 'Baskın element: Hava (6 gezegen)', 'Element dağılımı: Ateş: 2, Toprak: 1, Hava: 6, Su: 1', 'Retrograd gezegenler: Mercury, Jupiter, Saturn, Uranus, Neptune, Pluto', '1. Ev: Jupiter, Pluto', '2. Ev: Uranus', '3. Ev: Neptune', '4. Ev: Moon', '7. Ev: Venus', '8. Ev: Sun, Mercury', '12. Ev: Mars, Saturn'],
+    'asteroids': {
+        'Chiron': {
+            'degree': 54.64,
+            'sign': 'Boğa',
+            'house': 8,
+            'retrograde': False,
+            'speed': 0.0645
+        },
+        'Ceres': {
+            'degree': 223.7,
+            'sign': 'Akrep',
+            'house': 1,
+            'retrograde': True,
+            'speed': -0.1061
+        },
+        'Pallas': {
+            'degree': 183.8,
+            'sign': 'Terazi',
+            'house': 12,
+            'retrograde': False,
+            'speed': 0.1348
+        },
+        'Juno': {
+            'degree': 275.23,
+            'sign': 'Oğlak',
+            'house': 3,
+            'retrograde': True,
+            'speed': -0.2094
+        },
+        'Vesta': {
+            'degree': 323.72,
+            'sign': 'Kova',
+            'house': 4,
+            'retrograde': False,
+            'speed': 0.113
+        }
+    },
+    'secondary_progressions': {
+        'Sun': {
+            'degree': 120.98,
+            'sign': 'Aslan',
+            'house': 12,
+            'retrograde': False
+        },
+        'Moon': {
+            'degree': 167.47,
+            'sign': 'Başak',
+            'house': 2,
+            'retrograde': False
+        },
+        'Mercury': {
+            'degree': 119.65,
+            'sign': 'Yengeç',
+            'house': 12,
+            'retrograde': False
+        },
+        'Venus': {
+            'degree': 94.24,
+            'sign': 'Yengeç',
+            'house': 11,
+            'retrograde': False
+        },
+        'Mars': {
+            'degree': 204.31,
+            'sign': 'Terazi',
+            'house': 3,
+            'retrograde': False
+        },
+        'Jupiter': {
+            'degree': 211.46,
+            'sign': 'Akrep',
+            'house': 3,
+            'retrograde': False
+        },
+        'Saturn': {
+            'degree': 196.54,
+            'sign': 'Terazi',
+            'house': 3,
+            'retrograde': False
+        },
+        'Uranus': {
+            'degree': 240.69,
+            'sign': 'Yay',
+            'house': 4,
+            'retrograde': True
+        },
+        'Neptune': {
+            'degree': 264.75,
+            'sign': 'Yay',
+            'house': 5,
+            'retrograde': True
+        },
+        'Pluto': {
+            'degree': 204.22,
+            'sign': 'Terazi',
+            'house': 3,
+            'retrograde': False
+        }
+    },
+    'solar_return': {
+        'Sun': {
+            'degree': 80.85,
+            'sign': 'İkizler',
+            'retrograde': False,
+            'house': 8
+        },
+        'Moon': {
+            'degree': 263.18,
+            'sign': 'Yay',
+            'retrograde': False,
+            'house': 2
+        },
+        'Mercury': {
+            'degree': 95.1,
+            'sign': 'Yengeç',
+            'retrograde': False,
+            'house': 9
+        },
+        'Venus': {
+            'degree': 35.37,
+            'sign': 'Boğa',
+            'retrograde': False,
+            'house': 7
+        },
+        'Mars': {
+            'degree': 146.76,
+            'sign': 'Aslan',
+            'retrograde': False,
+            'house': 10
+        },
+        'Jupiter': {
+            'degree': 90.37,
+            'sign': 'Yengeç',
+            'retrograde': False,
+            'house': 9
+        },
+        'Saturn': {
+            'degree': 1.11,
+            'sign': 'Koç',
+            'retrograde': False,
+            'house': 6
+        },
+        'Uranus': {
+            'degree': 58.7,
+            'sign': 'Boğa',
+            'retrograde': False,
+            'house': 8
+        },
+        'Neptune': {
+            'degree': 2.03,
+            'sign': 'Koç',
+            'retrograde': False,
+            'house': 6
+        },
+        'Pluto': {
+            'degree': 303.5,
+            'sign': 'Kova',
+            'retrograde': True,
+            'house': 4
+        }
+    },
+    'lunar_return': {
+        'Sun': {
+            'degree': 322.77,
+            'sign': 'Kova',
+            'retrograde': False,
+            'house': 12
+        },
+        'Moon': {
+            'degree': 127.16,
+            'sign': 'Aslan',
+            'retrograde': False,
+            'house': 5
+        },
+        'Mercury': {
+            'degree': 324.12,
+            'sign': 'Kova',
+            'retrograde': False,
+            'house': 12
+        },
+        'Venus': {
+            'degree': 4.66,
+            'sign': 'Koç',
+            'retrograde': False,
+            'house': 1
+        },
+        'Mars': {
+            'degree': 108.07,
+            'sign': 'Yengeç',
+            'retrograde': True,
+            'house': 5
+        },
+        'Jupiter': {
+            'degree': 71.36,
+            'sign': 'İkizler',
+            'retrograde': False,
+            'house': 3
+        },
+        'Saturn': {
+            'degree': 348.57,
+            'sign': 'Balık',
+            'retrograde': False,
+            'house': 12
+        },
+        'Uranus': {
+            'degree': 53.32,
+            'sign': 'Boğa',
+            'retrograde': False,
+            'house': 2
+        },
+        'Neptune': {
+            'degree': 358.28,
+            'sign': 'Balık',
+            'retrograde': False,
+            'house': 1
+        },
+        'Pluto': {
+            'degree': 302.37,
+            'sign': 'Kova',
+            'retrograde': False,
+            'house': 11
+        }
+    },
+    'solar_arcs': {
+        'Sun': {
+            'degree': 324.66,
+            'sign': 'Kova',
+            'solar_arc': 244.4
+        },
+        'Moon': {
+            'degree': 197.62,
+            'sign': 'Terazi',
+            'solar_arc': 244.4
+        },
+        'Mercury': {
+            'degree': 311.24,
+            'sign': 'Kova',
+            'solar_arc': 244.4
+        },
+        'Venus': {
+            'degree': 287.96,
+            'sign': 'Oğlak',
+            'solar_arc': 244.4
+        },
+        'Mars': {
+            'degree': 70.01,
+            'sign': 'İkizler',
+            'solar_arc': 244.4
+        },
+        'Jupiter': {
+            'degree': 95.23,
+            'sign': 'Yengeç',
+            'solar_arc': 244.4
+        },
+        'Saturn': {
+            'degree': 79.94,
+            'sign': 'İkizler',
+            'solar_arc': 244.4
+        },
+        'Uranus': {
+            'degree': 126.27,
+            'sign': 'Aslan',
+            'solar_arc': 244.4
+        },
+        'Neptune': {
+            'degree': 150.22,
+            'sign': 'Başak',
+            'solar_arc': 244.4
+        },
+        'Pluto': {
+            'degree': 88.66,
+            'sign': 'İkizler',
+            'solar_arc': 244.4
+        }
+    },
+    'midpoints': {
+        'planetary_pairs': [{
+                'planets': ['Sun', 'Moon'],
+                'degree': 16.74,
+                'sign': 'Koç',
+                'aspects': [{
+                    'planet': 'Saturn',
+                    'aspect_type': 'Opposition',
+                    'orb': 1.2
+                }]
+            },
+            {
+                'planets': ['Sun', 'Mercury'],
+                'degree': 73.55,
+                'sign': 'İkizler',
+                'aspects': [{
+                    'planet': 'Jupiter',
+                    'aspect_type': 'Sesquiquadrate',
+                    'orb': 2.28
+                }]
+            },
+            {
+                'planets': ['Sun', 'Venus'],
+                'degree': 61.91,
+                'sign': 'İkizler',
+                'aspects': [{
+                        'planet': 'Mercury',
+                        'aspect_type': 'Conjunction',
+                        'orb': 4.93
+                    },
+                    {
+                        'planet': 'Saturn',
+                        'aspect_type': 'Sesquiquadrate',
+                        'orb': 1.37
+                    }
+                ]
+            },
+            {
+                'planets': ['Sun', 'Mars'],
+                'degree': 132.94,
+                'sign': 'Aslan',
+                'aspects': [{
+                        'planet': 'Moon',
+                        'aspect_type': 'Conjunction',
+                        'orb': 0.29
+                    },
+                    {
+                        'planet': 'Venus',
+                        'aspect_type': 'Square',
+                        'orb': 0.62
+                    }
+                ]
+            },
+            {
+                'planets': ['Sun', 'Jupiter'],
+                'degree': 145.55,
+                'sign': 'Aslan',
+                'aspects': [{
+                        'planet': 'Mars',
+                        'aspect_type': 'Semi-square',
+                        'orb': 4.94
+                    },
+                    {
+                        'planet': 'Saturn',
+                        'aspect_type': 'Semi-square',
+                        'orb': 4.99
+                    }
+                ]
+            },
+            {
+                'planets': ['Sun', 'Saturn'],
+                'degree': 137.9,
+                'sign': 'Aslan',
+                'aspects': [{
+                        'planet': 'Moon',
+                        'aspect_type': 'Opposition',
+                        'orb': 4.68
+                    },
+                    {
+                        'planet': 'Venus',
+                        'aspect_type': 'Square',
+                        'orb': 4.34
+                    },
+                    {
+                        'planet': 'Mars',
+                        'aspect_type': 'Semi-square',
+                        'orb': 2.71
+                    }
+                ]
+            },
+            {
+                'planets': ['Moon', 'Mercury'],
+                'degree': 10.03,
+                'sign': 'Koç',
+                'aspects': [{
+                    'planet': 'Mars',
+                    'aspect_type': 'Opposition',
+                    'orb': 4.42
+                }]
+            },
+            {
+                'planets': ['Moon', 'Venus'],
+                'degree': 358.39,
+                'sign': 'Balık',
+                'aspects': []
+            },
+            {
+                'planets': ['Moon', 'Mars'],
+                'degree': 249.42,
+                'sign': 'Yay',
+                'aspects': [{
+                    'planet': 'Mercury',
+                    'aspect_type': 'Conjunction',
+                    'orb': 2.58
+                }]
+            },
+            {
+                'planets': ['Moon', 'Jupiter'],
+                'degree': 262.03,
+                'sign': 'Yay',
+                'aspects': [{
+                    'planet': 'Sun',
+                    'aspect_type': 'Conjunction',
+                    'orb': 1.77
+                }]
+            },
+            {
+                'planets': ['Moon', 'Saturn'],
+                'degree': 254.38,
+                'sign': 'Yay',
+                'aspects': [{
+                    'planet': 'Jupiter',
+                    'aspect_type': 'Semi-square',
+                    'orb': 1.45
+                }]
+            },
+            {
+                'planets': ['Mercury', 'Venus'],
+                'degree': 55.2,
+                'sign': 'Boğa',
+                'aspects': [{
+                    'planet': 'Mars',
+                    'aspect_type': 'Sesquiquadrate',
+                    'orb': 4.59
+                }]
+            },
+            {
+                'planets': ['Mercury', 'Mars'],
+                'degree': 126.23,
+                'sign': 'Aslan',
+                'aspects': [{
+                    'planet': 'Sun',
+                    'aspect_type': 'Semi-square',
+                    'orb': 0.97
+                }]
+            },
+            {
+                'planets': ['Mercury', 'Jupiter'],
+                'degree': 138.84,
+                'sign': 'Aslan',
+                'aspects': [{
+                    'planet': 'Mars',
+                    'aspect_type': 'Semi-square',
+                    'orb': 1.78
+                }]
+            },
+            {
+                'planets': ['Mercury', 'Saturn'],
+                'degree': 131.19,
+                'sign': 'Aslan',
+                'aspects': [{
+                        'planet': 'Moon',
+                        'aspect_type': 'Conjunction',
+                        'orb': 2.03
+                    },
+                    {
+                        'planet': 'Venus',
+                        'aspect_type': 'Square',
+                        'orb': 2.37
+                    }
+                ]
+            },
+            {
+                'planets': ['Venus', 'Mars'],
+                'degree': 114.59,
+                'sign': 'Yengeç',
+                'aspects': [{
+                    'planet': 'Mercury',
+                    'aspect_type': 'Semi-square',
+                    'orb': 2.75
+                }]
+            },
+            {
+                'planets': ['Venus', 'Jupiter'],
+                'degree': 127.2,
+                'sign': 'Aslan',
+                'aspects': [{
+                    'planet': 'Sun',
+                    'aspect_type': 'Semi-square',
+                    'orb': 1.94
+                }]
+            },
+            {
+                'planets': ['Venus', 'Saturn'],
+                'degree': 119.55,
+                'sign': 'Yengeç',
+                'aspects': [{
+                    'planet': 'Jupiter',
+                    'aspect_type': 'Square',
+                    'orb': 1.28
+                }]
+            },
+            {
+                'planets': ['Mars', 'Jupiter'],
+                'degree': 198.22,
+                'sign': 'Terazi',
+                'aspects': [{
+                        'planet': 'Mercury',
+                        'aspect_type': 'Sesquiquadrate',
+                        'orb': 3.62
+                    },
+                    {
+                        'planet': 'Saturn',
+                        'aspect_type': 'Conjunction',
+                        'orb': 2.68
+                    }
+                ]
+            },
+            {
+                'planets': ['Mars', 'Saturn'],
+                'degree': 190.57,
+                'sign': 'Terazi',
+                'aspects': []
+            },
+            {
+                'planets': ['Jupiter', 'Saturn'],
+                'degree': 203.19,
+                'sign': 'Terazi',
+                'aspects': [{
+                    'planet': 'Mercury',
+                    'aspect_type': 'Sesquiquadrate',
+                    'orb': 1.34
+                }]
+            }
+        ],
+        'sensitive_points': [{
+            'midpoint': {
+                'planets': ['Sun', 'Moon'],
+                'degree': 16.74,
+                'sign': 'Koç',
+                'aspects': [{
+                    'planet': 'Saturn',
+                    'aspect_type': 'Opposition',
+                    'orb': 1.2
+                }]
+            },
+            'sensitive_degree': 15,
+            'orb': 1.74
+        }],
+        'compound_midpoints': [{
+                'planets': ['Sun', 'Moon', 'Saturn'],
+                'midpoint_degree': 16.74,
+                'aspect_type': 'Opposition',
+                'orb': 1.2
+            },
+            {
+                'planets': ['Moon', 'Mercury', 'Mars'],
+                'midpoint_degree': 10.03,
+                'aspect_type': 'Opposition',
+                'orb': 4.42
+            },
+            {
+                'planets': ['Moon', 'Mercury', 'Saturn'],
+                'midpoint_degree': 10.03,
+                'aspect_type': 'Conjunction',
+                'orb': 5.51
+            },
+            {
+                'planets': ['Moon', 'Venus', 'Mars'],
+                'midpoint_degree': 358.39,
+                'aspect_type': 'Opposition',
+                'orb': 7.22
+            },
+            {
+                'planets': ['Mars', 'Jupiter', 'Saturn'],
+                'midpoint_degree': 198.22,
+                'aspect_type': 'Conjunction',
+                'orb': 2.68
+            }
+        ]
+    },
+    'lunation_cycle': {
+        'phase': 'Küçülen Ay',
+        'phase_angle': 232.96,
+        'phase_day': 19.1
+    },
+    'lunar_eclipse': None,
+    'solar_eclipse': None,
+    'heliocentric_positions': {
+        'Sun': {
+            'degree': 0.0,
+            'sign': 'Koç'
+        },
+        'Mercury': {
+            'degree': 277.91,
+            'sign': 'Oğlak'
+        },
+        'Venus': {
+            'degree': 346.85,
+            'sign': 'Balık'
+        },
+        'Mars': {
+            'degree': 224.38,
+            'sign': 'Akrep'
+        },
+        'Jupiter': {
+            'degree': 219.0,
+            'sign': 'Akrep'
+        },
+        'Saturn': {
+            'degree': 200.98,
+            'sign': 'Terazi'
+        },
+        'Uranus': {
+            'degree': 242.84,
+            'sign': 'Yay'
+        },
+        'Neptune': {
+            'degree': 265.63,
+            'sign': 'Yay'
+        },
+        'Pluto': {
+            'degree': 205.94,
+            'sign': 'Terazi'
+        }
+    },
+    'dignity_scores': {
+        'Sun': {
+            'score': 4,
+            'status': 'Orta'
+        },
+        'Moon': {
+            'score': 0,
+            'status': 'Zayıf'
+        },
+        'Mercury': {
+            'score': 5,
+            'status': 'Güçlü'
+        },
+        'Venus': {
+            'score': 5,
+            'status': 'Güçlü'
+        },
+        'Mars': {
+            'score': 0,
+            'status': 'Zayıf'
+        },
+        'Jupiter': {
+            'score': 0,
+            'status': 'Zayıf'
+        },
+        'Saturn': {
+            'score': 0,
+            'status': 'Zayıf'
+        }
+    },
+    'fixed_stars': {
+        'Aldebaran': {
+            'sign': 'İkizler',
+            'degree': 9.533452727979736
+        },
+        'Antares': {
+            'sign': 'Yay',
+            'degree': 9.517947646797097
+        },
+        'Regulus': {
+            'sign': 'Aslan',
+            'degree': 29.578346679934498
+        },
+        'Spica': {
+            'sign': 'Terazi',
+            'degree': 23.594711678087776
+        },
+        'Sirius': {
+            'sign': 'Yengeç',
+            'degree': 13.828286649020498
+        },
+        'Vega': {
+            'sign': 'Oğlak',
+            'degree': 15.076207085528722
+        },
+        'Fomalhaut': {
+            'sign': 'Balık',
+            'degree': 3.6099749241486734
+        },
+        'Pollux': {
+            'sign': 'Yengeç',
+            'degree': 22.963801851357232
+        },
+        'Castor': {
+            'sign': 'Yengeç',
+            'degree': 19.98596025094305
+        },
+        'Procyon': {
+            'sign': 'Yengeç',
+            'degree': 25.53378905825963
+        }
+    },
+    'antiscia': {
+        'Sun': {
+            'degree': 99.74,
+            'sign': 'Yengeç'
+        },
+        'Moon': {
+            'degree': 226.78,
+            'sign': 'Akrep'
+        },
+        'Mercury': {
+            'degree': 113.16,
+            'sign': 'Yengeç'
+        },
+        'Venus': {
+            'degree': 136.44,
+            'sign': 'Aslan'
+        },
+        'Mars': {
+            'degree': 354.39,
+            'sign': 'Balık'
+        },
+        'Jupiter': {
+            'degree': 329.17,
+            'sign': 'Kova'
+        },
+        'Saturn': {
+            'degree': 344.46,
+            'sign': 'Balık'
+        }
+    },
+    'vedic': {
+        'dasa_period': {
+            'main_dasa': 'Saturn',
+            'sub_dasa': 'Mars',
+            'remaining_years': 10.33
+        },
+        'firdaria': {
+            'main_ruler': 'Saturn',
+            'sub_ruler': 'Venus',
+            'remaining_years': 8.33,
+            'is_daytime': True
+        },
+        'harmonic_chart': {
+            'Sun': 329.4,
+            'Moon': 275.47,
+            'Mercury': 153.63,
+            'Venus': 300.94,
+            'Mars': 223.96,
+            'Jupiter': 153.34,
+            'Saturn': 261.52,
+            'Uranus': 315.01,
+            'Neptune': 192.89,
+            'Pluto': 250.5
+        }
+    },
+    'special_points': {
+        'part_of_fortune': {
+            'degree': 41.08,
+            'sign': 'Boğa',
+            'day_birth': True
+        },
+        'vertex': {
+            'vertex': {
+                'degree': 203.86,
+                'sign': 'Terazi'
+            },
+            'antivertex': {
+                'degree': 23.86,
+                'sign': 'Koç'
+            }
+        },
+        'arabic_parts': {
+            'Spirit': {
+                'degree': 23.02,
+                'sign': 'Koç'
+            },
+            'Eros': {
+                'degree': 131.41,
+                'sign': 'Aslan'
+            },
+            'Victory': {
+                'degree': 337.87,
+                'sign': 'Balık'
+            }
+        }
+    },
+    'additional_calculations': {
+        'deep_harmonics': {
+            'D7': {
+                'name': 'Saptamsa',
+                'interpretation': 'Çocuklar ve yaratıcılık',
+                'details': 'Çocuklar, eğitim, yaratıcı yetenekler ve hobiler hakkında bilgi verir',
+                'positions': {
+                    'Sun': 166.37,
+                    'Moon': 251.32,
+                    'Mercury': 197.53,
+                    'Venus': 78.35,
+                    'Mars': 185.09,
+                    'Jupiter': 42.86,
+                    'Saturn': 336.24,
+                    'Uranus': 199.3,
+                    'Neptune': 350.86,
+                    'Pluto': 64.92
+                },
+                'signs': {
+                    'Sun': 'Başak',
+                    'Moon': 'Yay',
+                    'Mercury': 'Terazi',
+                    'Venus': 'İkizler',
+                    'Mars': 'Terazi',
+                    'Jupiter': 'Boğa',
+                    'Saturn': 'Balık',
+                    'Uranus': 'Terazi',
+                    'Neptune': 'Balık',
+                    'Pluto': 'İkizler'
+                },
+                'aspects': [{
+                        'planets': ['Sun', 'Venus'],
+                        'aspect': 'Kare',
+                        'degree': 88.02
+                    },
+                    {
+                        'planets': ['Sun', 'Jupiter'],
+                        'aspect': 'Üçgen',
+                        'degree': 123.51
+                    },
+                    {
+                        'planets': ['Sun', 'Neptune'],
+                        'aspect': 'Kavuşum',
+                        'degree': 4.49
+                    },
+                    {
+                        'planets': ['Moon', 'Pluto'],
+                        'aspect': 'Kavuşum',
+                        'degree': 6.4
+                    },
+                    {
+                        'planets': ['Mercury', 'Venus'],
+                        'aspect': 'Üçgen',
+                        'degree': 119.18
+                    },
+                    {
+                        'planets': ['Mercury', 'Uranus'],
+                        'aspect': 'Kavuşum',
+                        'degree': 1.77
+                    },
+                    {
+                        'planets': ['Venus', 'Uranus'],
+                        'aspect': 'Üçgen',
+                        'degree': 120.95
+                    },
+                    {
+                        'planets': ['Venus', 'Neptune'],
+                        'aspect': 'Kare',
+                        'degree': 92.51
+                    },
+                    {
+                        'planets': ['Mars', 'Pluto'],
+                        'aspect': 'Üçgen',
+                        'degree': 120.17
+                    },
+                    {
+                        'planets': ['Saturn', 'Pluto'],
+                        'aspect': 'Kare',
+                        'degree': 91.32
+                    }
+                ]
+            },
+            'D9': {
+                'name': 'Navamsa',
+                'interpretation': 'Dharma ve spiritüel yol',
+                'details': 'Evlilik, spiritüel gelişim ve yaşam amacı hakkında bilgi verir',
+                'positions': {
+                    'Sun': 329.4,
+                    'Moon': 275.47,
+                    'Mercury': 153.63,
+                    'Venus': 300.94,
+                    'Mars': 223.96,
+                    'Jupiter': 153.34,
+                    'Saturn': 261.52,
+                    'Uranus': 315.01,
+                    'Neptune': 192.89,
+                    'Pluto': 250.5
+                },
+                'signs': {
+                    'Sun': 'Kova',
+                    'Moon': 'Oğlak',
+                    'Mercury': 'Başak',
+                    'Venus': 'Kova',
+                    'Mars': 'Akrep',
+                    'Jupiter': 'Başak',
+                    'Saturn': 'Yay',
+                    'Uranus': 'Kova',
+                    'Neptune': 'Terazi',
+                    'Pluto': 'Yay'
+                },
+                'aspects': [{
+                        'planets': ['Sun', 'Mercury'],
+                        'aspect': 'Karşıt',
+                        'degree': 175.77
+                    },
+                    {
+                        'planets': ['Sun', 'Jupiter'],
+                        'aspect': 'Karşıt',
+                        'degree': 176.06
+                    },
+                    {
+                        'planets': ['Moon', 'Mercury'],
+                        'aspect': 'Üçgen',
+                        'degree': 121.84
+                    },
+                    {
+                        'planets': ['Moon', 'Jupiter'],
+                        'aspect': 'Üçgen',
+                        'degree': 122.13
+                    },
+                    {
+                        'planets': ['Mercury', 'Jupiter'],
+                        'aspect': 'Kavuşum',
+                        'degree': 0.29
+                    },
+                    {
+                        'planets': ['Mars', 'Uranus'],
+                        'aspect': 'Kare',
+                        'degree': 91.05
+                    },
+                    {
+                        'planets': ['Uranus', 'Neptune'],
+                        'aspect': 'Üçgen',
+                        'degree': 122.12
+                    },
+                    {
+                        'planets': ['Uranus', 'Pluto'],
+                        'aspect': 'Altmışlık',
+                        'degree': 64.51
+                    },
+                    {
+                        'planets': ['Neptune', 'Pluto'],
+                        'aspect': 'Altmışlık',
+                        'degree': 57.61
+                    }
+                ]
+            },
+            'D10': {
+                'name': 'Dasamsa',
+                'interpretation': 'Kariyer ve başarı',
+                'details': 'Meslek, kariyer, başarı ve sosyal statü hakkında bilgi verir',
+                'positions': {
+                    'Sun': 8.46,
+                    'Moon': 103.93,
+                    'Mercury': 246.27,
+                    'Venus': 126.84,
+                    'Mars': 201.57,
+                    'Jupiter': 30.01,
+                    'Saturn': 199.37,
+                    'Uranus': 67.51,
+                    'Neptune': 209.6,
+                    'Pluto': 153.45
+                },
+                'signs': {
+                    'Sun': 'Koç',
+                    'Moon': 'Yengeç',
+                    'Mercury': 'Yay',
+                    'Venus': 'Aslan',
+                    'Mars': 'Terazi',
+                    'Jupiter': 'Boğa',
+                    'Saturn': 'Terazi',
+                    'Uranus': 'İkizler',
+                    'Neptune': 'Terazi',
+                    'Pluto': 'Başak'
+                },
+                'aspects': [{
+                        'planets': ['Sun', 'Mercury'],
+                        'aspect': 'Altmışlık',
+                        'degree': 57.81
+                    },
+                    {
+                        'planets': ['Sun', 'Venus'],
+                        'aspect': 'Üçgen',
+                        'degree': 118.38
+                    },
+                    {
+                        'planets': ['Sun', 'Uranus'],
+                        'aspect': 'Altmışlık',
+                        'degree': 59.05
+                    },
+                    {
+                        'planets': ['Mercury', 'Venus'],
+                        'aspect': 'Üçgen',
+                        'degree': 119.43
+                    },
+                    {
+                        'planets': ['Mercury', 'Uranus'],
+                        'aspect': 'Karşıt',
+                        'degree': 178.76
+                    },
+                    {
+                        'planets': ['Mercury', 'Pluto'],
+                        'aspect': 'Kare',
+                        'degree': 92.82
+                    },
+                    {
+                        'planets': ['Venus', 'Uranus'],
+                        'aspect': 'Altmışlık',
+                        'degree': 59.33
+                    },
+                    {
+                        'planets': ['Mars', 'Saturn'],
+                        'aspect': 'Kavuşum',
+                        'degree': 2.2
+                    },
+                    {
+                        'planets': ['Mars', 'Neptune'],
+                        'aspect': 'Kavuşum',
+                        'degree': 8.03
+                    },
+                    {
+                        'planets': ['Jupiter', 'Neptune'],
+                        'aspect': 'Karşıt',
+                        'degree': 179.59
+                    },
+                    {
+                        'planets': ['Jupiter', 'Pluto'],
+                        'aspect': 'Üçgen',
+                        'degree': 123.44
+                    },
+                    {
+                        'planets': ['Uranus', 'Pluto'],
+                        'aspect': 'Kare',
+                        'degree': 85.94
+                    },
+                    {
+                        'planets': ['Neptune', 'Pluto'],
+                        'aspect': 'Altmışlık',
+                        'degree': 56.15
+                    }
+                ]
+            },
+            'D12': {
+                'name': 'Dvadasamsa',
+                'interpretation': 'Ebeveynler ve atalar',
+                'details': 'Aile mirası, ebeveynler ve geçmiş yaşamlar hakkında bilgi verir',
+                'positions': {
+                    'Sun': 247.05,
+                    'Moon': 26.61,
+                    'Mercury': 205.22,
+                    'Venus': 225.7,
+                    'Mars': 167.97,
+                    'Jupiter': 205.0,
+                    'Saturn': 106.14,
+                    'Uranus': 56.26,
+                    'Neptune': 54.67,
+                    'Pluto': 7.87
+                },
+                'signs': {
+                    'Sun': 'Yay',
+                    'Moon': 'Koç',
+                    'Mercury': 'Terazi',
+                    'Venus': 'Akrep',
+                    'Mars': 'Başak',
+                    'Jupiter': 'Terazi',
+                    'Saturn': 'Yengeç',
+                    'Uranus': 'Boğa',
+                    'Neptune': 'Boğa',
+                    'Pluto': 'Koç'
+                },
+                'aspects': [{
+                        'planets': ['Sun', 'Pluto'],
+                        'aspect': 'Altmışlık',
+                        'degree': 59.18
+                    },
+                    {
+                        'planets': ['Moon', 'Mercury'],
+                        'aspect': 'Karşıt',
+                        'degree': 178.61
+                    },
+                    {
+                        'planets': ['Moon', 'Jupiter'],
+                        'aspect': 'Karşıt',
+                        'degree': 178.39
+                    },
+                    {
+                        'planets': ['Mercury', 'Jupiter'],
+                        'aspect': 'Kavuşum',
+                        'degree': 0.22
+                    },
+                    {
+                        'planets': ['Venus', 'Mars'],
+                        'aspect': 'Altmışlık',
+                        'degree': 57.73
+                    },
+                    {
+                        'planets': ['Venus', 'Saturn'],
+                        'aspect': 'Üçgen',
+                        'degree': 119.56
+                    },
+                    {
+                        'planets': ['Mars', 'Saturn'],
+                        'aspect': 'Altmışlık',
+                        'degree': 61.83
+                    },
+                    {
+                        'planets': ['Uranus', 'Neptune'],
+                        'aspect': 'Kavuşum',
+                        'degree': 1.59
+                    }
+                ]
+            },
+            'D16': {
+                'name': 'Shodasamsa',
+                'interpretation': 'Taşıtlar ve konfor',
+                'details': 'Araçlar, lüks yaşam ve maddi konfor hakkında bilgi verir',
+                'positions': {
+                    'Sun': 5.29,
+                    'Moon': 199.95,
+                    'Mercury': 63.92,
+                    'Venus': 259.28,
+                    'Mars': 215.98,
+                    'Jupiter': 63.75,
+                    'Saturn': 79.6,
+                    'Uranus': 42.2,
+                    'Neptune': 221.0,
+                    'Pluto': 275.9
+                },
+                'signs': {
+                    'Sun': 'Koç',
+                    'Moon': 'Terazi',
+                    'Mercury': 'İkizler',
+                    'Venus': 'Yay',
+                    'Mars': 'Akrep',
+                    'Jupiter': 'İkizler',
+                    'Saturn': 'İkizler',
+                    'Uranus': 'Boğa',
+                    'Neptune': 'Akrep',
+                    'Pluto': 'Oğlak'
+                },
+                'aspects': [{
+                        'planets': ['Sun', 'Mercury'],
+                        'aspect': 'Altmışlık',
+                        'degree': 58.63
+                    },
+                    {
+                        'planets': ['Sun', 'Jupiter'],
+                        'aspect': 'Altmışlık',
+                        'degree': 58.46
+                    },
+                    {
+                        'planets': ['Sun', 'Pluto'],
+                        'aspect': 'Kare',
+                        'degree': 90.61
+                    },
+                    {
+                        'planets': ['Moon', 'Venus'],
+                        'aspect': 'Altmışlık',
+                        'degree': 59.33
+                    },
+                    {
+                        'planets': ['Moon', 'Saturn'],
+                        'aspect': 'Üçgen',
+                        'degree': 120.35
+                    },
+                    {
+                        'planets': ['Mercury', 'Jupiter'],
+                        'aspect': 'Kavuşum',
+                        'degree': 0.17
+                    },
+                    {
+                        'planets': ['Venus', 'Saturn'],
+                        'aspect': 'Karşıt',
+                        'degree': 179.68
+                    },
+                    {
+                        'planets': ['Mars', 'Neptune'],
+                        'aspect': 'Kavuşum',
+                        'degree': 5.02
+                    },
+                    {
+                        'planets': ['Mars', 'Pluto'],
+                        'aspect': 'Altmışlık',
+                        'degree': 59.92
+                    },
+                    {
+                        'planets': ['Uranus', 'Neptune'],
+                        'aspect': 'Karşıt',
+                        'degree': 178.8
+                    }
+                ]
+            },
+            'D20': {
+                'name': 'Vimsamsa',
+                'interpretation': 'Spiritüel uygulamalar',
+                'details': 'Manevi gelişim, ibadet ve dini uygulamalar hakkında bilgi verir',
+                'positions': {
+                    'Sun': 4.23,
+                    'Moon': 231.96,
+                    'Mercury': 123.13,
+                    'Venus': 63.42,
+                    'Mars': 100.78,
+                    'Jupiter': 195.0,
+                    'Saturn': 279.68,
+                    'Uranus': 33.76,
+                    'Neptune': 104.8,
+                    'Pluto': 76.72
+                },
+                'signs': {
+                    'Sun': 'Koç',
+                    'Moon': 'Akrep',
+                    'Mercury': 'Aslan',
+                    'Venus': 'İkizler',
+                    'Mars': 'Yengeç',
+                    'Jupiter': 'Terazi',
+                    'Saturn': 'Oğlak',
+                    'Uranus': 'Boğa',
+                    'Neptune': 'Yengeç',
+                    'Pluto': 'İkizler'
+                },
+                'aspects': [{
+                        'planets': ['Sun', 'Mercury'],
+                        'aspect': 'Üçgen',
+                        'degree': 118.9
+                    },
+                    {
+                        'planets': ['Sun', 'Venus'],
+                        'aspect': 'Altmışlık',
+                        'degree': 59.19
+                    },
+                    {
+                        'planets': ['Mercury', 'Venus'],
+                        'aspect': 'Altmışlık',
+                        'degree': 59.71
+                    },
+                    {
+                        'planets': ['Mercury', 'Uranus'],
+                        'aspect': 'Kare',
+                        'degree': 89.37
+                    },
+                    {
+                        'planets': ['Mars', 'Jupiter'],
+                        'aspect': 'Kare',
+                        'degree': 94.22
+                    },
+                    {
+                        'planets': ['Mars', 'Saturn'],
+                        'aspect': 'Karşıt',
+                        'degree': 178.9
+                    },
+                    {
+                        'planets': ['Mars', 'Neptune'],
+                        'aspect': 'Kavuşum',
+                        'degree': 4.02
+                    },
+                    {
+                        'planets': ['Jupiter', 'Neptune'],
+                        'aspect': 'Kare',
+                        'degree': 90.2
+                    },
+                    {
+                        'planets': ['Jupiter', 'Pluto'],
+                        'aspect': 'Üçgen',
+                        'degree': 118.28
+                    }
+                ]
+            },
+            'D24': {
+                'name': 'Chaturvimsamsa',
+                'interpretation': 'Eğitim ve öğrenme',
+                'details': 'Akademik başarı, bilgi ve eğitim hakkında bilgi verir',
+                'positions': {
+                    'Sun': 123.53,
+                    'Moon': 13.3,
+                    'Mercury': 282.61,
+                    'Venus': 292.85,
+                    'Mars': 263.99,
+                    'Jupiter': 282.5,
+                    'Saturn': 53.07,
+                    'Uranus': 28.13,
+                    'Neptune': 27.33,
+                    'Pluto': 183.94
+                },
+                'signs': {
+                    'Sun': 'Aslan',
+                    'Moon': 'Koç',
+                    'Mercury': 'Oğlak',
+                    'Venus': 'Oğlak',
+                    'Mars': 'Yay',
+                    'Jupiter': 'Oğlak',
+                    'Saturn': 'Boğa',
+                    'Uranus': 'Koç',
+                    'Neptune': 'Koç',
+                    'Pluto': 'Terazi'
+                },
+                'aspects': [{
+                        'planets': ['Sun', 'Pluto'],
+                        'aspect': 'Altmışlık',
+                        'degree': 60.41
+                    },
+                    {
+                        'planets': ['Moon', 'Mercury'],
+                        'aspect': 'Kare',
+                        'degree': 89.31
+                    },
+                    {
+                        'planets': ['Moon', 'Jupiter'],
+                        'aspect': 'Kare',
+                        'degree': 89.2
+                    },
+                    {
+                        'planets': ['Mercury', 'Jupiter'],
+                        'aspect': 'Kavuşum',
+                        'degree': 0.11
+                    },
+                    {
+                        'planets': ['Venus', 'Saturn'],
+                        'aspect': 'Altmışlık',
+                        'degree': 59.78
+                    },
+                    {
+                        'planets': ['Venus', 'Neptune'],
+                        'aspect': 'Kare',
+                        'degree': 85.52
+                    },
+                    {
+                        'planets': ['Mars', 'Uranus'],
+                        'aspect': 'Altmışlık',
+                        'degree': 55.86
+                    },
+                    {
+                        'planets': ['Mars', 'Neptune'],
+                        'aspect': 'Altmışlık',
+                        'degree': 56.66
+                    },
+                    {
+                        'planets': ['Uranus', 'Neptune'],
+                        'aspect': 'Kavuşum',
+                        'degree': 0.8
+                    }
+                ]
+            },
+            'D27': {
+                'name': 'Saptavimsamsa',
+                'interpretation': 'Güç ve kuvvet',
+                'details': 'Fiziksel güç, dayanıklılık ve sağlık hakkında bilgi verir',
+                'positions': {
+                    'Sun': 349.8,
+                    'Moon': 211.82,
+                    'Mercury': 171.21,
+                    'Venus': 220.31,
+                    'Mars': 314.65,
+                    'Jupiter': 291.11,
+                    'Saturn': 87.17,
+                    'Uranus': 345.0,
+                    'Neptune': 304.3,
+                    'Pluto': 203.5
+                },
+                'signs': {
+                    'Sun': 'Balık',
+                    'Moon': 'Akrep',
+                    'Mercury': 'Başak',
+                    'Venus': 'Akrep',
+                    'Mars': 'Kova',
+                    'Jupiter': 'Oğlak',
+                    'Saturn': 'İkizler',
+                    'Uranus': 'Balık',
+                    'Neptune': 'Kova',
+                    'Pluto': 'Terazi'
+                },
+                'aspects': [{
+                        'planets': ['Sun', 'Mercury'],
+                        'aspect': 'Karşıt',
+                        'degree': 178.59
+                    },
+                    {
+                        'planets': ['Sun', 'Jupiter'],
+                        'aspect': 'Altmışlık',
+                        'degree': 58.69
+                    },
+                    {
+                        'planets': ['Sun', 'Uranus'],
+                        'aspect': 'Kavuşum',
+                        'degree': 4.8
+                    },
+                    {
+                        'planets': ['Moon', 'Venus'],
+                        'aspect': 'Kavuşum',
+                        'degree': 8.49
+                    },
+                    {
+                        'planets': ['Moon', 'Saturn'],
+                        'aspect': 'Üçgen',
+                        'degree': 124.65
+                    },
+                    {
+                        'planets': ['Moon', 'Neptune'],
+                        'aspect': 'Kare',
+                        'degree': 92.48
+                    },
+                    {
+                        'planets': ['Moon', 'Pluto'],
+                        'aspect': 'Kavuşum',
+                        'degree': 8.32
+                    },
+                    {
+                        'planets': ['Mercury', 'Jupiter'],
+                        'aspect': 'Üçgen',
+                        'degree': 119.9
+                    },
+                    {
+                        'planets': ['Venus', 'Mars'],
+                        'aspect': 'Kare',
+                        'degree': 94.34
+                    },
+                    {
+                        'planets': ['Venus', 'Uranus'],
+                        'aspect': 'Üçgen',
+                        'degree': 124.69
+                    },
+                    {
+                        'planets': ['Jupiter', 'Pluto'],
+                        'aspect': 'Kare',
+                        'degree': 87.61
+                    },
+                    {
+                        'planets': ['Saturn', 'Pluto'],
+                        'aspect': 'Üçgen',
+                        'degree': 116.33
+                    }
+                ]
+            },
+            'D30': {
+                'name': 'Trimsamsa',
+                'interpretation': 'Kötü karma',
+                'details': 'Zorluklar, engeller ve karmik dersler hakkında bilgi verir',
+                'positions': {
+                    'Sun': 242.82,
+                    'Moon': 154.64,
+                    'Mercury': 82.09,
+                    'Venus': 162.28,
+                    'Mars': 67.19,
+                    'Jupiter': 10.0,
+                    'Saturn': 186.46,
+                    'Uranus': 22.5,
+                    'Neptune': 309.87,
+                    'Pluto': 291.15
+                },
+                'signs': {
+                    'Sun': 'Yay',
+                    'Moon': 'Başak',
+                    'Mercury': 'İkizler',
+                    'Venus': 'Başak',
+                    'Mars': 'İkizler',
+                    'Jupiter': 'Koç',
+                    'Saturn': 'Terazi',
+                    'Uranus': 'Koç',
+                    'Neptune': 'Kova',
+                    'Pluto': 'Oğlak'
+                },
+                'aspects': [{
+                        'planets': ['Sun', 'Moon'],
+                        'aspect': 'Kare',
+                        'degree': 88.18
+                    },
+                    {
+                        'planets': ['Sun', 'Mars'],
+                        'aspect': 'Karşıt',
+                        'degree': 175.63
+                    },
+                    {
+                        'planets': ['Sun', 'Saturn'],
+                        'aspect': 'Altmışlık',
+                        'degree': 56.36
+                    },
+                    {
+                        'planets': ['Moon', 'Venus'],
+                        'aspect': 'Kavuşum',
+                        'degree': 7.64
+                    },
+                    {
+                        'planets': ['Moon', 'Mars'],
+                        'aspect': 'Kare',
+                        'degree': 87.45
+                    },
+                    {
+                        'planets': ['Mercury', 'Uranus'],
+                        'aspect': 'Altmışlık',
+                        'degree': 59.59
+                    },
+                    {
+                        'planets': ['Mars', 'Jupiter'],
+                        'aspect': 'Altmışlık',
+                        'degree': 57.19
+                    },
+                    {
+                        'planets': ['Mars', 'Saturn'],
+                        'aspect': 'Üçgen',
+                        'degree': 119.27
+                    },
+                    {
+                        'planets': ['Mars', 'Neptune'],
+                        'aspect': 'Altmışlık',
+                        'degree': 62.68
+                    },
+                    {
+                        'planets': ['Jupiter', 'Saturn'],
+                        'aspect': 'Karşıt',
+                        'degree': 176.46
+                    },
+                    {
+                        'planets': ['Jupiter', 'Neptune'],
+                        'aspect': 'Üçgen',
+                        'degree': 119.87
+                    },
+                    {
+                        'planets': ['Saturn', 'Neptune'],
+                        'aspect': 'Üçgen',
+                        'degree': 123.41
+                    },
+                    {
+                        'planets': ['Uranus', 'Pluto'],
+                        'aspect': 'Kare',
+                        'degree': 88.65
+                    }
+                ]
+            },
+            'D40': {
+                'name': 'Khavedamsa',
+                'interpretation': 'İyileşme ve sağlık',
+                'details': 'Şifa yetenekleri, sağlık ve iyileşme hakkında bilgi verir',
+                'positions': {
+                    'Sun': 2.12,
+                    'Moon': 295.98,
+                    'Mercury': 241.57,
+                    'Venus': 31.71,
+                    'Mars': 230.39,
+                    'Jupiter': 97.5,
+                    'Saturn': 319.84,
+                    'Uranus': 16.88,
+                    'Neptune': 232.4,
+                    'Pluto': 38.36
+                },
+                'signs': {
+                    'Sun': 'Koç',
+                    'Moon': 'Oğlak',
+                    'Mercury': 'Yay',
+                    'Venus': 'Boğa',
+                    'Mars': 'Akrep',
+                    'Jupiter': 'Yengeç',
+                    'Saturn': 'Kova',
+                    'Uranus': 'Koç',
+                    'Neptune': 'Akrep',
+                    'Pluto': 'Boğa'
+                },
+                'aspects': [{
+                        'planets': ['Sun', 'Mercury'],
+                        'aspect': 'Altmışlık',
+                        'degree': 59.45
+                    },
+                    {
+                        'planets': ['Moon', 'Neptune'],
+                        'aspect': 'Altmışlık',
+                        'degree': 63.58
+                    },
+                    {
+                        'planets': ['Mercury', 'Neptune'],
+                        'aspect': 'Kavuşum',
+                        'degree': 9.17
+                    },
+                    {
+                        'planets': ['Venus', 'Pluto'],
+                        'aspect': 'Kavuşum',
+                        'degree': 6.65
+                    },
+                    {
+                        'planets': ['Mars', 'Saturn'],
+                        'aspect': 'Kare',
+                        'degree': 89.45
+                    },
+                    {
+                        'planets': ['Mars', 'Neptune'],
+                        'aspect': 'Kavuşum',
+                        'degree': 2.01
+                    },
+                    {
+                        'planets': ['Jupiter', 'Pluto'],
+                        'aspect': 'Altmışlık',
+                        'degree': 59.14
+                    },
+                    {
+                        'planets': ['Saturn', 'Uranus'],
+                        'aspect': 'Üçgen',
+                        'degree': 122.96
+                    },
+                    {
+                        'planets': ['Saturn', 'Neptune'],
+                        'aspect': 'Kare',
+                        'degree': 87.44
+                    }
+                ]
+            },
+            'D45': {
+                'name': 'Akshavedamsa',
+                'interpretation': 'Kutsal yerler',
+                'details': 'Spiritüel mekanlar ve hac yolculukları hakkında bilgi verir',
+                'positions': {
+                    'Sun': 281.88,
+                    'Moon': 343.09,
+                    'Mercury': 174.73,
+                    'Venus': 348.19,
+                    'Mars': 44.79,
+                    'Jupiter': 246.67,
+                    'Saturn': 124.3,
+                    'Uranus': 135.0,
+                    'Neptune': 326.58,
+                    'Pluto': 194.1
+                },
+                'signs': {
+                    'Sun': 'Oğlak',
+                    'Moon': 'Balık',
+                    'Mercury': 'Başak',
+                    'Venus': 'Balık',
+                    'Mars': 'Boğa',
+                    'Jupiter': 'Yay',
+                    'Saturn': 'Aslan',
+                    'Uranus': 'Aslan',
+                    'Neptune': 'Kova',
+                    'Pluto': 'Terazi'
+                },
+                'aspects': [{
+                        'planets': ['Sun', 'Moon'],
+                        'aspect': 'Altmışlık',
+                        'degree': 61.21
+                    },
+                    {
+                        'planets': ['Sun', 'Mars'],
+                        'aspect': 'Altmışlık',
+                        'degree': 57.09
+                    },
+                    {
+                        'planets': ['Sun', 'Pluto'],
+                        'aspect': 'Kare',
+                        'degree': 87.78
+                    },
+                    {
+                        'planets': ['Moon', 'Venus'],
+                        'aspect': 'Kavuşum',
+                        'degree': 5.1
+                    },
+                    {
+                        'planets': ['Moon', 'Mars'],
+                        'aspect': 'Üçgen',
+                        'degree': 118.3
+                    },
+                    {
+                        'planets': ['Venus', 'Mars'],
+                        'aspect': 'Üçgen',
+                        'degree': 123.4
+                    },
+                    {
+                        'planets': ['Mars', 'Uranus'],
+                        'aspect': 'Kare',
+                        'degree': 90.21
+                    },
+                    {
+                        'planets': ['Jupiter', 'Saturn'],
+                        'aspect': 'Üçgen',
+                        'degree': 122.37
+                    },
+                    {
+                        'planets': ['Uranus', 'Pluto'],
+                        'aspect': 'Altmışlık',
+                        'degree': 59.1
+                    }
+                ]
+            }
+        },
+        'transit_positions': {
+            'Sun': {
+                'degree': 325.03,
+                'sign': 'Kova',
+                'house': 8,
+                'retrograde': False
+            },
+            'Moon': {
+                'degree': 155.67,
+                'sign': 'Başak',
+                'house': 3,
+                'retrograde': False
+            },
+            'Mercury': {
+                'degree': 328.17,
+                'sign': 'Kova',
+                'house': 9,
+                'retrograde': False
+            },
+            'Venus': {
+                'degree': 5.95,
+                'sign': 'Koç',
+                'house': 10,
+                'retrograde': False
+            },
+            'Mars': {
+                'degree': 107.73,
+                'sign': 'Yengeç',
+                'house': 1,
+                'retrograde': True
+            },
+            'Jupiter': {
+                'degree': 71.42,
+                'sign': 'İkizler',
+                'house': 12,
+                'retrograde': False
+            },
+            'Saturn': {
+                'degree': 348.83,
+                'sign': 'Balık',
+                'house': 9,
+                'retrograde': False
+            },
+            'Uranus': {
+                'degree': 53.35,
+                'sign': 'Boğa',
+                'house': 11,
+                'retrograde': False
+            },
+            'Neptune': {
+                'degree': 358.35,
+                'sign': 'Balık',
+                'house': 10,
+                'retrograde': False
+            },
+            'Pluto': {
+                'degree': 302.44,
+                'sign': 'Kova',
+                'house': 7,
+                'retrograde': False
+            }
+        },
+        'secondary_progressions': {
+            'Sun': {
+                'degree': 120.98,
+                'sign': 'Aslan',
+                'house': 12,
+                'retrograde': False
+            },
+            'Moon': {
+                'degree': 167.47,
+                'sign': 'Başak',
+                'house': 2,
+                'retrograde': False
+            },
+            'Mercury': {
+                'degree': 119.65,
+                'sign': 'Yengeç',
+                'house': 12,
+                'retrograde': False
+            },
+            'Venus': {
+                'degree': 94.24,
+                'sign': 'Yengeç',
+                'house': 11,
+                'retrograde': False
+            },
+            'Mars': {
+                'degree': 204.31,
+                'sign': 'Terazi',
+                'house': 3,
+                'retrograde': False
+            },
+            'Jupiter': {
+                'degree': 211.46,
+                'sign': 'Akrep',
+                'house': 3,
+                'retrograde': False
+            },
+            'Saturn': {
+                'degree': 196.54,
+                'sign': 'Terazi',
+                'house': 3,
+                'retrograde': False
+            },
+            'Uranus': {
+                'degree': 240.69,
+                'sign': 'Yay',
+                'house': 4,
+                'retrograde': True
+            },
+            'Neptune': {
+                'degree': 264.75,
+                'sign': 'Yay',
+                'house': 5,
+                'retrograde': True
+            },
+            'Pluto': {
+                'degree': 204.22,
+                'sign': 'Terazi',
+                'house': 3,
+                'retrograde': False
+            }
+        },
+        'solar_return': {
+            'Sun': {
+                'degree': 80.85,
+                'sign': 'İkizler',
+                'retrograde': False,
+                'house': 8
+            },
+            'Moon': {
+                'degree': 263.18,
+                'sign': 'Yay',
+                'retrograde': False,
+                'house': 2
+            },
+            'Mercury': {
+                'degree': 95.1,
+                'sign': 'Yengeç',
+                'retrograde': False,
+                'house': 9
+            },
+            'Venus': {
+                'degree': 35.37,
+                'sign': 'Boğa',
+                'retrograde': False,
+                'house': 7
+            },
+            'Mars': {
+                'degree': 146.76,
+                'sign': 'Aslan',
+                'retrograde': False,
+                'house': 10
+            },
+            'Jupiter': {
+                'degree': 90.37,
+                'sign': 'Yengeç',
+                'retrograde': False,
+                'house': 9
+            },
+            'Saturn': {
+                'degree': 1.11,
+                'sign': 'Koç',
+                'retrograde': False,
+                'house': 6
+            },
+            'Uranus': {
+                'degree': 58.7,
+                'sign': 'Boğa',
+                'retrograde': False,
+                'house': 8
+            },
+            'Neptune': {
+                'degree': 2.03,
+                'sign': 'Koç',
+                'retrograde': False,
+                'house': 6
+            },
+            'Pluto': {
+                'degree': 303.5,
+                'sign': 'Kova',
+                'retrograde': True,
+                'house': 4
+            }
+        },
+        'lunar_return': {
+            'Sun': {
+                'degree': 322.77,
+                'sign': 'Kova',
+                'retrograde': False,
+                'house': 12
+            },
+            'Moon': {
+                'degree': 127.16,
+                'sign': 'Aslan',
+                'retrograde': False,
+                'house': 5
+            },
+            'Mercury': {
+                'degree': 324.12,
+                'sign': 'Kova',
+                'retrograde': False,
+                'house': 12
+            },
+            'Venus': {
+                'degree': 4.66,
+                'sign': 'Koç',
+                'retrograde': False,
+                'house': 1
+            },
+            'Mars': {
+                'degree': 108.07,
+                'sign': 'Yengeç',
+                'retrograde': True,
+                'house': 5
+            },
+            'Jupiter': {
+                'degree': 71.36,
+                'sign': 'İkizler',
+                'retrograde': False,
+                'house': 3
+            },
+            'Saturn': {
+                'degree': 348.57,
+                'sign': 'Balık',
+                'retrograde': False,
+                'house': 12
+            },
+            'Uranus': {
+                'degree': 53.32,
+                'sign': 'Boğa',
+                'retrograde': False,
+                'house': 2
+            },
+            'Neptune': {
+                'degree': 358.28,
+                'sign': 'Balık',
+                'retrograde': False,
+                'house': 1
+            },
+            'Pluto': {
+                'degree': 302.37,
+                'sign': 'Kova',
+                'retrograde': False,
+                'house': 11
+            }
+        },
+        'solar_arcs': {
+            'Sun': {
+                'degree': 324.66,
+                'sign': 'Kova',
+                'solar_arc': 244.4
+            },
+            'Moon': {
+                'degree': 197.62,
+                'sign': 'Terazi',
+                'solar_arc': 244.4
+            },
+            'Mercury': {
+                'degree': 311.24,
+                'sign': 'Kova',
+                'solar_arc': 244.4
+            },
+            'Venus': {
+                'degree': 287.96,
+                'sign': 'Oğlak',
+                'solar_arc': 244.4
+            },
+            'Mars': {
+                'degree': 70.01,
+                'sign': 'İkizler',
+                'solar_arc': 244.4
+            },
+            'Jupiter': {
+                'degree': 95.23,
+                'sign': 'Yengeç',
+                'solar_arc': 244.4
+            },
+            'Saturn': {
+                'degree': 79.94,
+                'sign': 'İkizler',
+                'solar_arc': 244.4
+            },
+            'Uranus': {
+                'degree': 126.27,
+                'sign': 'Aslan',
+                'solar_arc': 244.4
+            },
+            'Neptune': {
+                'degree': 150.22,
+                'sign': 'Başak',
+                'solar_arc': 244.4
+            },
+            'Pluto': {
+                'degree': 88.66,
+                'sign': 'İkizler',
+                'solar_arc': 244.4
+            }
+        },
+        'fixed_stars': {
+            'Aldebaran': {
+                'sign': 'İkizler',
+                'degree': 9.533452727979736
+            },
+            'Antares': {
+                'sign': 'Yay',
+                'degree': 9.517947646797097
+            },
+            'Regulus': {
+                'sign': 'Aslan',
+                'degree': 29.578346679934498
+            },
+            'Spica': {
+                'sign': 'Terazi',
+                'degree': 23.594711678087776
+            },
+            'Sirius': {
+                'sign': 'Yengeç',
+                'degree': 13.828286649020498
+            },
+            'Vega': {
+                'sign': 'Oğlak',
+                'degree': 15.076207085528722
+            },
+            'Fomalhaut': {
+                'sign': 'Balık',
+                'degree': 3.6099749241486734
+            },
+            'Pollux': {
+                'sign': 'Yengeç',
+                'degree': 22.963801851357232
+            },
+            'Castor': {
+                'sign': 'Yengeç',
+                'degree': 19.98596025094305
+            },
+            'Procyon': {
+                'sign': 'Yengeç',
+                'degree': 25.53378905825963
+            }
+        },
+        'dignity_scores': {
+            'Sun': {
+                'score': 4,
+                'status': 'Orta'
+            },
+            'Moon': {
+                'score': 0,
+                'status': 'Zayıf'
+            },
+            'Mercury': {
+                'score': 5,
+                'status': 'Güçlü'
+            },
+            'Venus': {
+                'score': 5,
+                'status': 'Güçlü'
+            },
+            'Mars': {
+                'score': 0,
+                'status': 'Zayıf'
+            },
+            'Jupiter': {
+                'score': 0,
+                'status': 'Zayıf'
+            },
+            'Saturn': {
+                'score': 0,
+                'status': 'Zayıf'
+            }
+        }
+    },
+    'birth_latitude': 40.685,
+    'birth_longitude': 30.62222
+}
